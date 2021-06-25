@@ -1,0 +1,25 @@
+
+25/06/2021 13:25:58 - Falha interna da função WriteDBREPORTPRODUTIVIDADE_GRUPO_DIARIO
+25/06/2021 13:25:58 - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE_GRUPO_DIARIO(String& strERROR) na D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 10119
+25/06/2021 13:27:28 - Falha interna da função WriteDBREPORTPRODUTIVIDADE_GRUPO_DIARIO
+25/06/2021 13:27:28 - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE_GRUPO_DIARIO(String& strERROR) na D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 10119
+25/06/2021 13:30:23 - Falha interna da função WriteDBREPORTPRODUTIVIDADE_GRUPO_DIARIO
+25/06/2021 13:30:23 - System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   em System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   em System.Data.SqlClient.SqlDataReader.Read()
+   em System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   em System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   em System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE_GRUPO_DIARIO(String& strERROR) na D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 10124
+ClientConnectionId:4ed33ccf-ae74-46fc-9c79-a61072902da6
+Error Number:241,State:1,Class:16

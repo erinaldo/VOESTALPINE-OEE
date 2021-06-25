@@ -1,0 +1,14 @@
+
+21/06/2021 01:07:01 - Falha interna da função WriteDBREPORT_TEMPOCALENDARIO
+21/06/2021 01:07:01 - System.Data.SqlClient.SqlException (0x80131904): The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+The statement has been terminated.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORT_TEMPOCALENDARIO(Int32 _intUSERID, String& strERROR) na D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 15253
+ClientConnectionId:a9a34562-9a96-4c1c-96d0-339a4ca40c75
+Error Number:242,State:3,Class:16

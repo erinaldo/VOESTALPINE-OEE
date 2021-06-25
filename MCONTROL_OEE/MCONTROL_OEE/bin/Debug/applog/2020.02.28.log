@@ -1,0 +1,41 @@
+
+28/02/2020 00:28:01 - Falha interna da função ReadDBGETPARADAS
+28/02/2020 00:28:01 - System.ArgumentException: A coluna 'registroid' não pertence à tabela Bloqueios.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.mod_OEE.ReadDBGETPARADASBLOQUEAR(String strDataInicial, String strHORAINICIAL, String strDataFinal, String strHORAFINAL, String strMachineId, DataGridViewX& dgvPARADAS, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 10885
+28/02/2020 01:32:13 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+28/02/2020 01:32:13 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_GRUPO(Int32 intUSERID, String strDATAHOJE, Int32 intMES, Int32 intANO, Int32 intDIASUTEIS, Int32 intDIASUTEISHOJE, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 8777
+28/02/2020 01:33:11 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+28/02/2020 01:33:11 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_GRUPO(Int32 intUSERID, String strDATAHOJE, Int32 intMES, Int32 intANO, Int32 intDIASUTEIS, Int32 intDIASUTEISHOJE, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 8777
+28/02/2020 01:34:04 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+28/02/2020 01:34:04 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_PARCIAL(Int32 intUSERID, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 10148
+28/02/2020 01:49:35 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+28/02/2020 01:49:35 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_GRUPO(Int32 intUSERID, String strDATAHOJE, Int32 intMES, Int32 intANO, Int32 intDIASUTEIS, Int32 intDIASUTEISHOJE, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 8777
+28/02/2020 01:50:47 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+28/02/2020 01:50:47 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_GRUPO(Int32 intUSERID, String strDATAHOJE, Int32 intMES, Int32 intANO, Int32 intDIASUTEIS, Int32 intDIASUTEISHOJE, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 8777
+28/02/2020 01:54:33 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+28/02/2020 01:54:33 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_PARCIAL(Int32 intUSERID, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 10148
+28/02/2020 02:19:19 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+28/02/2020 02:19:19 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_PARCIAL(Int32 intUSERID, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 10148

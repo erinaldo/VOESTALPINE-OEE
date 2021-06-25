@@ -1,0 +1,2561 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MCONTROL_OEE
+</name>
+</assembly>
+<members>
+<member name="T:MCONTROL_OEE.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MCONTROL_OEE.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MCONTROL_OEE.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet.exe_MCONTROL_OEE_report_paradasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet.exe_MCONTROL_OEE_report_paradasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet.exe_MCONTROL_OEE_report_paradasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSetTableAdapters.exe_MCONTROL_OEE_report_paradasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSetTableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet1.exe_MCONTROL_OEE_report_produtividadeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet1.exe_MCONTROL_OEE_report_produtividadeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet1.exe_MCONTROL_OEE_report_produtividadeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet1TableAdapters.exe_MCONTROL_OEE_report_produtividadeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet1TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet10">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet10.exe_MCONTROL_OEE_report_produtividade_grupomaquinasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet10.exe_MCONTROL_OEE_report_produtividade_grupomaquinasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet10.exe_MCONTROL_OEE_report_produtividade_grupomaquinasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet10TableAdapters.exe_MCONTROL_OEE_report_produtividade_grupomaquinasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet10TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet10TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet10,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet10TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet10TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet10TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet10TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet10)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet10TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet10TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet11">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet11.exe_MCONTROL_OEE_report_produtividade_grupomaquinasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet11.exe_MCONTROL_OEE_report_produtividade_grupomaquinasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet11.exe_MCONTROL_OEE_report_produtividade_grupomaquinasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet11TableAdapters.exe_MCONTROL_OEE_report_produtividade_grupomaquinasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet11TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet11TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet11,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet11TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet11TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet11TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet11TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet11)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet11TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet11TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet12">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet12.exe_MCONTROL_OEE_report_produtividade_grupomaquinasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet12.exe_MCONTROL_OEE_report_produtividade_grupomaquinasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet12.exe_MCONTROL_OEE_report_produtividade_grupomaquinasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet12TableAdapters.exe_MCONTROL_OEE_report_produtividade_grupomaquinasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet12TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet12TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet12,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet12TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet12TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet12TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet12TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet12)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet12TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet12TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet13">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet13.exe_MCONTROL_OEE_report_manutencao_grupoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet13.exe_MCONTROL_OEE_report_manutencao_grupoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet13.exe_MCONTROL_OEE_report_manutencao_grupoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet13TableAdapters.exe_MCONTROL_OEE_report_manutencao_grupoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet13TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet13TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet13,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet13TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet13TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet13TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet13TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet13)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet13TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet13TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet14">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet14.exe_MCONTROL_OEE_report_manutencao_grupoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet14.exe_MCONTROL_OEE_report_manutencao_grupoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet14.exe_MCONTROL_OEE_report_manutencao_grupoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet14TableAdapters.exe_MCONTROL_OEE_report_manutencao_grupoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet14TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet14TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet14,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet14TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet14TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet14TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet14TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet14)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet14TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet14TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet15">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet15.exe_MCONTROL_OEE_report_paradasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet15.exe_MCONTROL_OEE_report_paradasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet15.exe_MCONTROL_OEE_report_paradasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet15TableAdapters.exe_MCONTROL_OEE_report_paradasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet15TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet15TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet15,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet15TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet15,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet15TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet15,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet15TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet15TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet15)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet15TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet15TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet16">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet16.exe_MCONTROL_OEE_report_amarradoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet16.exe_MCONTROL_OEE_report_amarradoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet16.exe_MCONTROL_OEE_report_amarradoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet16TableAdapters.exe_MCONTROL_OEE_report_amarradoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet16TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet16TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet16,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet16TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet16,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet16TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet16,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet16TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet16TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet16)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet16TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet16TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet17">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet17.exe_MCONTROL_OEE_report_apontamento_livreDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet17.exe_MCONTROL_OEE_report_apontamento_livreRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet17.exe_MCONTROL_OEE_report_apontamento_livreRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet17TableAdapters.exe_MCONTROL_OEE_report_apontamento_livreTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet17TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet17TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet17,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet17TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet17,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet17TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet17,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet17TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet17TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet17)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet17TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet17TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet18">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet18.exe_MCONTROL_OEE_report_apontamento_grupomaquinasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet18.exe_MCONTROL_OEE_report_apontamento_grupomaquinasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet18.exe_MCONTROL_OEE_report_apontamento_grupomaquinasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet18TableAdapters.exe_MCONTROL_OEE_report_apontamento_grupomaquinasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet18TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet18TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet18,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet18TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet18,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet18TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet18,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet18TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet18TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet18)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet18TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet18TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet19">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet19.exe_MCONTROL_OEE_report_apontamento_livreDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet19.exe_MCONTROL_OEE_report_apontamento_livreRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet19.exe_MCONTROL_OEE_report_apontamento_livreRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet19TableAdapters.exe_MCONTROL_OEE_report_apontamento_livreTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet19TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet19TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet19,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet19TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet19,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet19TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet19,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet19TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet19TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet19)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet19TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet19TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet2.exe_MCONTROL_OEE_report_produtividadeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet2.exe_MCONTROL_OEE_report_produtividadeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet2.exe_MCONTROL_OEE_report_produtividadeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet2TableAdapters.exe_MCONTROL_OEE_report_produtividadeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet2TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet20">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet20.exe_MCONTROL_OEE_report_paradasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet20.exe_MCONTROL_OEE_report_paradasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet20.exe_MCONTROL_OEE_report_paradasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet20TableAdapters.exe_MCONTROL_OEE_report_paradasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet20TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet20TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet20,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet20TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet20,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet20TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet20,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet20TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet20TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet20)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet20TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet20TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet21">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet21.exe_MCONTROL_OEE_report_amarradoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet21.exe_MCONTROL_OEE_report_amarradoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet21.exe_MCONTROL_OEE_report_amarradoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet21TableAdapters.exe_MCONTROL_OEE_report_amarradoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet21TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet21TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet21,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet21TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet21,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet21TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet21,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet21TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet21TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet21)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet21TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet21TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet22">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet22.exe_MCONTROL_OEE_report_amarradoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet22.exe_MCONTROL_OEE_report_amarradoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet22.exe_MCONTROL_OEE_report_amarradoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet22TableAdapters.exe_MCONTROL_OEE_report_amarradoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet22TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet22TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet22,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet22TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet22,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet22TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet22,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet22TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet22TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet22)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet22TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet22TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet23">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet23.exe_MCONTROL_OEE_report_amarradoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet23.exe_MCONTROL_OEE_report_amarradoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet23.exe_MCONTROL_OEE_report_amarradoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet23TableAdapters.exe_MCONTROL_OEE_report_amarradoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet23TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet23TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet23,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet23TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet23,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet23TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet23,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet23TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet23TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet23)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet23TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet23TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet24">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet24.exe_MCONTROL_OEE_report_produtividade_grupomaquinasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet24.exe_MCONTROL_OEE_report_produtividade_grupomaquinasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet24.exe_MCONTROL_OEE_report_produtividade_grupomaquinasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet24TableAdapters.exe_MCONTROL_OEE_report_produtividade_grupomaquinasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet24TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet24TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet24,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet24TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet24,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet24TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet24,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet24TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet24TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet24)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet24TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet24TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet25">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet25.exe_MCONTROL_OEE_report_apontamento_grupomaquinasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet25.exe_MCONTROL_OEE_report_apontamento_grupomaquinasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet25.exe_MCONTROL_OEE_report_apontamento_grupomaquinasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet25TableAdapters.exe_MCONTROL_OEE_report_apontamento_grupomaquinasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet25TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet25TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet25,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet25TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet25,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet25TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet25,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet25TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet25TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet25)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet25TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet25TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet26">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet26.exe_MCONTROL_OEE_report_apontamentoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet26.exe_MCONTROL_OEE_report_apontamentoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet26.exe_MCONTROL_OEE_report_apontamentoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet26TableAdapters.exe_MCONTROL_OEE_report_apontamentoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet26TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet26TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet26,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet26TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet26,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet26TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet26,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet26TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet26TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet26)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet26TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet26TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet27">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet27.exe_MCONTROL_OEE_report_apontamento_livreDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet27.exe_MCONTROL_OEE_report_apontamento_livreRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet27.exe_MCONTROL_OEE_report_apontamento_livreRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet27TableAdapters.exe_MCONTROL_OEE_report_apontamento_livreTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet27TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet27TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet27,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet27TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet27,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet27TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet27,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet27TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet27TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet27)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet27TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet27TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet28">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet28.exe_MCONTROL_OEE_report_amarradoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet28.exe_MCONTROL_OEE_report_amarradoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet28.exe_MCONTROL_OEE_report_amarradoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet28TableAdapters.exe_MCONTROL_OEE_report_amarradoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet28TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet28TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet28,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet28TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet28,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet28TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet28,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet28TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet28TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet28)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet28TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet28TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet29">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet29.exe_MCONTROL_OEE_report_manutencaoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet29.exe_MCONTROL_OEE_report_manutencaoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet29.exe_MCONTROL_OEE_report_manutencaoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet29TableAdapters.exe_MCONTROL_OEE_report_manutencaoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet29TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet29TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet29,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet29TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet29,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet29TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet29,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet29TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet29TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet29)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet29TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet29TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet3.exe_MCONTROL_OEE_report_produtividadeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet3.exe_MCONTROL_OEE_report_produtividadeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet3.exe_MCONTROL_OEE_report_produtividadeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet3TableAdapters.exe_MCONTROL_OEE_report_produtividadeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet3TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet30">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet30.exe_MCONTROL_OEE_report_tempocalendarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet30.exe_MCONTROL_OEE_report_tempocalendarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet30.exe_MCONTROL_OEE_report_tempocalendarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet30TableAdapters.exe_MCONTROL_OEE_report_tempocalendarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet30TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet30TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet30,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet30TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet30,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet30TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet30,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet30TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet30TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet30)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet30TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet30TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet31">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet31.exe_MCONTROL_OEE_report_tempocalendarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet31.exe_MCONTROL_OEE_report_tempocalendarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet31.exe_MCONTROL_OEE_report_tempocalendarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet31TableAdapters.exe_MCONTROL_OEE_report_tempocalendarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet31TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet31TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet31,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet31TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet31,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet31TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet31,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet31TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet31TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet31)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet31TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet31TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet32">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet32.exe_MCONTROL_OEE_report_produtividadeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet32.exe_MCONTROL_OEE_report_produtividadeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet32.exe_MCONTROL_OEE_report_produtividadeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet32TableAdapters.exe_MCONTROL_OEE_report_produtividadeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet32TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet32TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet32,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet32TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet32,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet32TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet32,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet32TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet32TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet32)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet32TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet32TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet33">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet33.exe_MCONTROL_OEE_report_amarradoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet33.exe_MCONTROL_OEE_report_amarradoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet33.exe_MCONTROL_OEE_report_amarradoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet33TableAdapters.exe_MCONTROL_OEE_report_amarradoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet33TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet33TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet33,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet33TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet33,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet33TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet33,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet33TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet33TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet33)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet33TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet33TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet34">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet34.exe_MCONTROL_OEE_report_amarradoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet34.exe_MCONTROL_OEE_report_amarradoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet34.exe_MCONTROL_OEE_report_amarradoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet34TableAdapters.exe_MCONTROL_OEE_report_amarradoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet34TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet34TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet34,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet34TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet34,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet34TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet34,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet34TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet34TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet34)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet34TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet34TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet35">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet35.exe_MCONTROL_OEE_report_amarradoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet35.exe_MCONTROL_OEE_report_amarradoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet35.exe_MCONTROL_OEE_report_amarradoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet35TableAdapters.exe_MCONTROL_OEE_report_amarradoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet35TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet35TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet35,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet35TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet35,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet35TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet35,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet35TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet35TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet35)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet35TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet35TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet36">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet36.exe_MCONTROL_BABELFISH_amarradoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet36.exe_MCONTROL_BABELFISH_amarradoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet36.exe_MCONTROL_BABELFISH_amarradoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet36TableAdapters.exe_MCONTROL_BABELFISH_amarradoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet36TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet36TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet36,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet36TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet36,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet36TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet36,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet36TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet36TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet36)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet36TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet36TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet37">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet37.exe_MCONTROL_OEE_report_amarradoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet37.exe_MCONTROL_OEE_report_amarradoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet37.exe_MCONTROL_OEE_report_amarradoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet37TableAdapters.exe_MCONTROL_OEE_report_amarradoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet37TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet37TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet37,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet37TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet37,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet37TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet37,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet37TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet37TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet37)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet37TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet37TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet38">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet38.exe_MCONTROL_OEE_report_amarrados_semturnoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet38.exe_MCONTROL_OEE_report_amarrados_semturnoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet38.exe_MCONTROL_OEE_report_amarrados_semturnoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet38TableAdapters.exe_MCONTROL_OEE_report_amarrados_semturnoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet38TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet38TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet38,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet38TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet38,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet38TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet38,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet38TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet38TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet38)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet38TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet38TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet4.exe_MCONTROL_OEE_report_produtividadeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet4.exe_MCONTROL_OEE_report_produtividadeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet4.exe_MCONTROL_OEE_report_produtividadeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet4TableAdapters.exe_MCONTROL_OEE_report_produtividadeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet4TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet5.exe_MCONTROL_OEE_report_apontamentoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet5.exe_MCONTROL_OEE_report_apontamentoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet5.exe_MCONTROL_OEE_report_apontamentoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet5TableAdapters.exe_MCONTROL_OEE_report_apontamentoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet5TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet6.exe_MCONTROL_OEE_report_tempocalendarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet6.exe_MCONTROL_OEE_report_tempocalendarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet6.exe_MCONTROL_OEE_report_tempocalendarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet6TableAdapters.exe_MCONTROL_OEE_report_tempocalendarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet6TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet6TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet6)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet7">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet7.exe_MCONTROL_OEE_report_apontamento_grupomaquinasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet7.exe_MCONTROL_OEE_report_apontamento_grupomaquinasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet7.exe_MCONTROL_OEE_report_apontamento_grupomaquinasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet7TableAdapters.exe_MCONTROL_OEE_report_apontamento_grupomaquinasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet7TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet7TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet7)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet8">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet8.exe_MCONTROL_OEE_report_produtividade_grupomaquinasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet8.exe_MCONTROL_OEE_report_produtividade_grupomaquinasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet8.exe_MCONTROL_OEE_report_produtividade_grupomaquinasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet8TableAdapters.exe_MCONTROL_OEE_report_produtividade_grupomaquinasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet8TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet8TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet8)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet9">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet9.exe_MCONTROL_OEE_report_produtividade_grupomaquinasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet9.exe_MCONTROL_OEE_report_produtividade_grupomaquinasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet9.exe_MCONTROL_OEE_report_produtividade_grupomaquinasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet9TableAdapters.exe_MCONTROL_OEE_report_produtividade_grupomaquinasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet9TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet9TableAdapters.TableAdapterManager.UpdateUpdatedRows(MCONTROL_OEE.oViewerDataSet9,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet9TableAdapters.TableAdapterManager.UpdateInsertedRows(MCONTROL_OEE.oViewerDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet9TableAdapters.TableAdapterManager.UpdateDeletedRows(MCONTROL_OEE.oViewerDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet9TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCONTROL_OEE.oViewerDataSet9TableAdapters.TableAdapterManager.UpdateAll(MCONTROL_OEE.oViewerDataSet9)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet9TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCONTROL_OEE.oViewerDataSet9TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

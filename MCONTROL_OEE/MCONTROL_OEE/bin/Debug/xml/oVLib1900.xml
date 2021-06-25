@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<oVDeviceDescriptor>
+
+	<Variables>
+		
+		<List>
+			<Power>N</Power>
+			<Gas>N</Gas>	
+			<Water>N</Water>
+			<Temperature>N</Temperature>
+			<DigitalIO>Y</DigitalIO>
+			<AnalogIO>Y</AnalogIO>
+			<Counters>N</Counters>
+			<Timers>N</Timers>
+			<FixedRegTime>0</FixedRegTime>
+			<DeviceTimeStamp>N</DeviceTimeStamp>
+			<RTC>N</RTC>
+			<GPS>N</GPS>
+			<COMM>PASSIVA</COMM>
+		</List>
+		
+		<VarListRead>
+
+      	<DigitalIO>
+				<Header>
+					<Name>Entradas Digitais</Name>
+					<imgFileBlack>img_iodigital_16_B.ico</imgFileBlack>
+					<imgFileWhite>img_iodigital_16_W.ico</imgFileWhite>
+					<MasterGroup>DigitalIO</MasterGroup>
+					<GroupEssential>
+					</GroupEssential>
+				</Header>
+				
+				<Group Name="Entradas Digitais">		
+					<Var Name="Entrada Digital 1">
+						<VArSymbol>ED_1</VArSymbol>
+						<VarScientificNotation></VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>				
+					<Var Name="Entrada Digital 2">
+						<VArSymbol>ED_2</VArSymbol>
+						<VarScientificNotation></VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+					<Var Name="Entrada Digital 3">
+						<VArSymbol>ED_3</VArSymbol>
+						<VarScientificNotation></VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+					<Var Name="Entrada Digital 4">
+						<VArSymbol>ED_4</VArSymbol>
+						<VarScientificNotation></VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+					<Var Name="Entrada Digital 5">
+						<VArSymbol>ED_5</VArSymbol>
+						<VarScientificNotation></VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+					<Var Name="Entrada Digital 6">
+						<VArSymbol>ED_6</VArSymbol>
+						<VarScientificNotation></VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+					<Var Name="Entrada Digital 7">
+						<VArSymbol>ED_7</VArSymbol>
+						<VarScientificNotation></VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+					<Var Name="Entrada Digital 8">
+						<VArSymbol>ED_8</VArSymbol>
+						<VarScientificNotation></VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+					<Var Name="Entrada Digital 9">
+						<VArSymbol>ED_9</VArSymbol>
+						<VarScientificNotation></VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+					<Var Name="Entrada Digital 10">
+						<VArSymbol>ED_10</VArSymbol>
+						<VarScientificNotation></VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+					<Var Name="Entrada Digital 11">
+						<VArSymbol>ED_11</VArSymbol>
+						<VarScientificNotation></VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+					<Var Name="Entrada Digital 12">
+						<VArSymbol>ED_12</VArSymbol>
+						<VarScientificNotation></VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+					<Var Name="Entrada Digital 13">
+						<VArSymbol>ED_13</VArSymbol>
+						<VarScientificNotation></VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+					<Var Name="Entrada Digital 14">
+						<VArSymbol>ED_14</VArSymbol>
+						<VarScientificNotation></VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+					<Var Name="Entrada Digital 15">
+						<VArSymbol>ED_15</VArSymbol>
+						<VarScientificNotation></VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+					<Var Name="Entrada Digital 16">
+						<VArSymbol>ED_16</VArSymbol>
+						<VarScientificNotation></VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+				</Group>
+			</DigitalIO>
+			
+			<AnalogIO>
+				<Header>
+					<Name>Entradas Analógicas</Name>
+					<imgFileBlack>img_ioanalog_16_B.ico</imgFileBlack>
+					<imgFileWhite>img_ioanalog_16_W.ico</imgFileWhite>
+					<MasterGroup>AnalogIO</MasterGroup>
+					<GroupEssential>
+					</GroupEssential>
+				</Header>
+				
+				<Group Name="Entradas Analógicas">
+					<Var Name="Entradas Analógica 1">
+						<VArSymbol>EA_1</VArSymbol>
+						<VarScientificNotation>Hz</VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+					<Var Name="Entradas Analógica 2">
+						<VArSymbol>EA_2</VArSymbol>
+						<VarScientificNotation>Hz</VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+					<Var Name="Entradas Analógica 3">
+						<VArSymbol>EA_3</VArSymbol>
+						<VarScientificNotation>Hz</VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+					<Var Name="Entradas Analógica 4">
+						<VArSymbol>EA_4</VArSymbol>
+						<VarScientificNotation>Hz</VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+					<Var Name="Entradas Analógica 5">
+						<VArSymbol>EA_5</VArSymbol>
+						<VarScientificNotation>Hz</VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+					<Var Name="Entradas Analógica 6">
+						<VArSymbol>EA_6</VArSymbol>
+						<VarScientificNotation>Hz</VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+					<Var Name="Entradas Analógica 7">
+						<VArSymbol>EA_7</VArSymbol>
+						<VarScientificNotation>Hz</VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+					<Var Name="Entradas Analógica 8">
+						<VArSymbol>EA_8</VArSymbol>
+						<VarScientificNotation>Hz</VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+						<Var Name="Entradas Analógica 9">
+						<VArSymbol>EA_9</VArSymbol>
+						<VarScientificNotation>Hz</VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+						<Var Name="Entradas Analógica 10">
+						<VArSymbol>EA_10</VArSymbol>
+						<VarScientificNotation>Hz</VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+						<Var Name="Entradas Analógica 11">
+						<VArSymbol>EA_11</VArSymbol>
+						<VarScientificNotation>Hz</VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+						<Var Name="Entradas Analógica 12">
+						<VArSymbol>EA_12</VArSymbol>
+						<VarScientificNotation>Hz</VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+						<Var Name="Entradas Analógica 13">
+						<VArSymbol>EA_13</VArSymbol>
+						<VarScientificNotation>Hz</VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+						<Var Name="Entradas Analógica 14">
+						<VArSymbol>EA_14</VArSymbol>
+						<VarScientificNotation>Hz</VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+						<Var Name="Entradas Analógica 15">
+						<VArSymbol>EA_15</VArSymbol>
+						<VarScientificNotation>Hz</VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+						<Var Name="Entradas Analógica 16">
+						<VArSymbol>EA_16</VArSymbol>
+						<VarScientificNotation>Hz</VarScientificNotation>
+						<VarScaleBegin></VarScaleBegin>
+						<VarScaleEnd></VarScaleEnd>
+					</Var>
+				</Group>
+			</AnalogIO>
+
+		</VarListRead>
+	
+		<VarListWrite>
+			<Parameters>
+				<Header>
+					<Name>Parâmetros de Programção</Name>
+					<imgFileBlack>img_keyboard_16_B.ico</imgFileBlack>
+					<imgFileWhite>img_keyboard_16_W.ico</imgFileWhite>
+				</Header>
+		  </Parameters>
+			
+			<Commands>
+				<Header>
+					<Name>Comandos</Name>
+					<imgFileBlack>img_keyboard_16_B.ico</imgFileBlack>
+					<imgFileWhite>img_keyboard_16_W.ico</imgFileWhite>
+				</Header>
+			</Commands>
+		</VarListWrite>
+		
+		<FrmInfo>
+		</FrmInfo>
+		
+		<Chart>
+			<Power>
+				<VarGroup Name="Consumo">
+        </VarGroup>
+				<VarGroup Name="Fator de Potência">
+				</VarGroup>
+				<VarGroup Name="Demanda">
+        </VarGroup>
+				<VarGroup Name="THD Tensão e Corrente">
+        </VarGroup>
+			</Power>
+			<Water>
+			</Water>
+			<Gas>
+			</Gas>
+		</Chart>
+		
+
+		<Billing>
+			<Power>
+				<VarGroup Name="Consumo">
+        </VarGroup>
+				<VarGroup Name="Demanda">
+        </VarGroup>
+			</Power>
+			<Water>
+				<VarGroup Name="Consumo">
+				</VarGroup>
+			</Water>
+			<Gas>
+				<VarGroup Name="Consumo">
+				</VarGroup>
+			</Gas>
+		</Billing>
+
+	</Variables>
+	
+</oVDeviceDescriptor>

@@ -1,0 +1,51 @@
+
+02/12/2019 01:47:53 - Falha interna da função WriteDBUPDATETURNO
+02/12/2019 01:47:53 - System.Data.SqlClient.SqlException (0x80131904): Aspas não fechadas depois da cadeia de caracteres '04:59, [horainicial2] = ', [horafinal2] = ' WHERE [Id] = 6'.
+Sintaxe incorreta próxima a '04:59, [horainicial2] = ', [horafinal2] = ' WHERE [Id] = 6'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBUPDATETURNO(DataGridViewX dgvTURNO, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 2242
+ClientConnectionId:e489d319-d1ad-4378-9b94-aff7c835be1f
+Error Number:105,State:1,Class:15
+02/12/2019 01:48:01 - Falha interna da função WriteDBUPDATETURNO
+02/12/2019 01:48:01 - System.Data.SqlClient.SqlException (0x80131904): Aspas não fechadas depois da cadeia de caracteres '04:59, [horainicial2] = ', [horafinal2] = ' WHERE [Id] = 6'.
+Sintaxe incorreta próxima a '04:59, [horainicial2] = ', [horafinal2] = ' WHERE [Id] = 6'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBUPDATETURNO(DataGridViewX dgvTURNO, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 2242
+ClientConnectionId:60dabf43-4285-497f-83c5-e524bfcae30d
+Error Number:105,State:1,Class:15
+02/12/2019 02:08:12 - Falha interna da função WriteDBINCLUIRTURNO
+02/12/2019 02:08:12 - System.Data.SqlClient.SqlException (0x80131904): Não é possível inserir o valor NULL na coluna 'shift_id', tabela 'oViewer.dbo.exe_MCONTROL_OEE_001005_Days'; a coluna não permite nulos. Falha em INSERT.
+A instrução foi finalizada.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBINCLUIRTURNO(Int32 intMAQUINAID, Int32 intTURNOID, Boolean bolWEEKEND, String strDATAINICIAL, String strDATAFINAL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 2393
+ClientConnectionId:1186643c-3624-48c2-86ef-b83f7f1a7a5e
+Error Number:515,State:2,Class:16
+02/12/2019 03:06:21 - Falha interna da função ReadDBGETSCHEDULE
+02/12/2019 03:06:21 - System.ArgumentException: A coluna 'hora_inicial' não pertence à tabela Escala.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.mod_OEE.ReadDBGETSCHEDULE(CalendarView& cvESCALA, Int32 intMAQUINAID, String strDATAINICIAL, String strDATAFINAL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 2510
+02/12/2019 15:39:00 - Falha interna da função <b>mod_MAIN.FillavTreeMENUIMages</b>!
+02/12/2019 15:39:00 - System.InvalidCastException: Não é possível converter um objeto do tipo 'System.Boolean' no tipo 'System.Drawing.Image'.
+   em MCONTROL_OEE.mod_OEE.FilladvTreeMENUIMages(AdvTree advTree, String[,] strImagesAG, String& strErro) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 3031
+02/12/2019 15:39:10 - Falha interna da função <b>mod_MAIN.FillavTreeMENUIMages</b>!
+02/12/2019 15:39:10 - System.InvalidCastException: Não é possível converter um objeto do tipo 'System.Boolean' no tipo 'System.Drawing.Image'.
+   em MCONTROL_OEE.mod_OEE.FilladvTreeMENUIMages(AdvTree advTree, String[,] strImagesAG, String& strErro) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 3031

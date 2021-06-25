@@ -1,0 +1,4 @@
+
+18/01/2020 12:20:05 - Falha interna da função ReadDBCHART_PARETO
+18/01/2020 12:20:05 - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em MCONTROL_OEE.mod_OEE.ReadDBCHART_PARETO(String strDATAINICIAL, String strHORAINICIAL, String strDATAFINAL, String strHORAFINAL, ListBoxAdv lbMAQUINASID, ListBoxAdv lbNIVEL1ID, ListBoxAdv lbNIVEL2ID, ListBoxAdv lbNIVEL3ID, ListBoxAdv lbTURNOID, ChartXy& Chart, ChartXy& Chart2, String& strERROR)

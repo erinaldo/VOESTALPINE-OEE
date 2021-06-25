@@ -1,0 +1,26 @@
+
+03/07/2020 18:22:58 - Falha interna da função ReadDBGETSTATUS
+03/07/2020 18:23:00 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETSTATUS(Int32 intMACHINEID, String& strSTATUS, Boolean& bolPARADA, Boolean& bolAGUARDANDO, Boolean& bolNOMOTIVO, Boolean& bolNOESCALA, Boolean& bolNOSTATUS, Boolean& bolPRODUZINDO, String& strTEMPO, String& strMOTIVO, String& strMOTIVO2, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 282
+03/07/2020 18:23:19 - Falha interna da função ReadDBGETSTATUS
+03/07/2020 18:23:19 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETSTATUS(Int32 intMACHINEID, String& strSTATUS, Boolean& bolPARADA, Boolean& bolAGUARDANDO, Boolean& bolNOMOTIVO, Boolean& bolNOESCALA, Boolean& bolNOSTATUS, Boolean& bolPRODUZINDO, String& strTEMPO, String& strMOTIVO, String& strMOTIVO2, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 282
+03/07/2020 18:25:07 - Falha interna da função ReadDBGETSTATUS
+03/07/2020 18:25:07 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETSTATUS(Int32 intMACHINEID, String& strSTATUS, Boolean& bolPARADA, Boolean& bolAGUARDANDO, Boolean& bolNOMOTIVO, Boolean& bolNOESCALA, Boolean& bolNOSTATUS, Boolean& bolPRODUZINDO, String& strTEMPO, String& strMOTIVO, String& strMOTIVO2, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 282
+03/07/2020 18:25:20 - Falha interna da função ReadDBGETSTATUS
+03/07/2020 18:25:20 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETSTATUS(Int32 intMACHINEID, String& strSTATUS, Boolean& bolPARADA, Boolean& bolAGUARDANDO, Boolean& bolNOMOTIVO, Boolean& bolNOESCALA, Boolean& bolNOSTATUS, Boolean& bolPRODUZINDO, String& strTEMPO, String& strMOTIVO, String& strMOTIVO2, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 282
+03/07/2020 19:19:15 - Falha interna da função ReadDBGETSTATUS
+03/07/2020 19:19:15 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETSTATUS(Int32 intMACHINEID, String& strSTATUS, Boolean& bolPARADA, Boolean& bolAGUARDANDO, Boolean& bolNOMOTIVO, Boolean& bolNOESCALA, Boolean& bolNOSTATUS, Boolean& bolPRODUZINDO, String& strTEMPO, String& strMOTIVO, String& strMOTIVO2, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 294

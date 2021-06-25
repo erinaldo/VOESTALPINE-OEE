@@ -1,0 +1,79 @@
+
+30/11/2019 00:39:47 - Falha interna da função <b>ReadDBGETIMAGES!</b>
+30/11/2019 00:39:47 - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em MCONTROL_OEE.mod_OEE.ReadDBGETIMAGES(String strTag, String[,] strImagesAG, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 2360
+30/11/2019 00:39:47 - Falha interna da função <b>mod_MAIN.FillavTreeMENUIMages</b>!
+30/11/2019 00:39:47 - System.InvalidCastException: Não é possível converter um objeto do tipo 'System.Boolean' no tipo 'System.Drawing.Image'.
+   em MCONTROL_OEE.mod_OEE.FilladvTreeMENUIMages(AdvTree advTree, String& strErro) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 2324
+30/11/2019 00:49:12 - Falha interna da função <b>ReadXMLGETMENUS</b>!
+30/11/2019 00:49:12 - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em MCONTROL_OEE.mod_OEE.ReadXMLGETMENUS(AdvTree& advTree, String[,]& strImagesAG, String& strErro) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 2271
+30/11/2019 01:00:12 - Falha interna da função <b>ReadDBGETIMAGES!</b>
+30/11/2019 01:00:12 - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em MCONTROL_OEE.mod_OEE.ReadDBGETIMAGES(String strTag, String[,] strImagesAG, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 2356
+30/11/2019 01:00:12 - Falha interna da função <b>mod_MAIN.FillavTreeMENUIMages</b>!
+30/11/2019 01:00:12 - System.InvalidCastException: Não é possível converter um objeto do tipo 'System.Boolean' no tipo 'System.Drawing.Image'.
+   em MCONTROL_OEE.mod_OEE.FilladvTreeMENUIMages(AdvTree advTree, String& strErro) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 2320
+30/11/2019 01:03:22 - Falha interna da função <b>ReadDBGETIMAGES!</b>
+30/11/2019 01:03:22 - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em MCONTROL_OEE.mod_OEE.ReadDBGETIMAGES(String strTag, String[,] strImagesAG, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 2356
+30/11/2019 01:03:22 - Falha interna da função <b>mod_MAIN.FillavTreeMENUIMages</b>!
+30/11/2019 01:03:22 - System.InvalidCastException: Não é possível converter um objeto do tipo 'System.Boolean' no tipo 'System.Drawing.Image'.
+   em MCONTROL_OEE.mod_OEE.FilladvTreeMENUIMages(AdvTree advTree, String& strErro) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 2320
+30/11/2019 01:09:15 - Falha interna da função <b>mod_MAIN.FillavTreeMENUIMages</b>!
+30/11/2019 01:09:15 - System.InvalidCastException: Não é possível converter um objeto do tipo 'System.Boolean' no tipo 'System.Drawing.Image'.
+   em MCONTROL_OEE.mod_OEE.FilladvTreeMENUIMages(AdvTree advTree, String[,] strImagesAG, String& strErro) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 2321
+30/11/2019 01:12:34 - Falha interna da função <b>mod_MAIN.FillavTreeMENUIMages</b>!
+30/11/2019 01:12:34 - System.InvalidCastException: Não é possível converter um objeto do tipo 'System.Boolean' no tipo 'System.Drawing.Image'.
+   em MCONTROL_OEE.mod_OEE.FilladvTreeMENUIMages(AdvTree advTree, String[,] strImagesAG, String& strErro) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 2325
+30/11/2019 01:38:05 - Falha interna da função <b>clsoVDBASQL.DBUpdateBlock!</b>
+30/11/2019 01:38:05 - System.Data.SqlClient.SqlException (0x80131904): Nome de coluna 'Id' inválido.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBUPDATEBLOCK(AdvTree advTree, Int32 intUSERID, String& strErro) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 2398
+ClientConnectionId:9ec11478-7c5b-4595-a404-05a057b98516
+Error Number:207,State:1,Class:16
+30/11/2019 01:38:42 - Falha interna da função <b>clsoVDBASQL.DBUpdateBlock!</b>
+30/11/2019 01:38:42 - System.Data.SqlClient.SqlException (0x80131904): Nome de coluna 'Id' inválido.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBUPDATEBLOCK(AdvTree advTree, Int32 intUSERID, String& strErro)
+ClientConnectionId:05a8b279-0881-49c9-b4b8-e67d574f2b6e
+Error Number:207,State:1,Class:16
+30/11/2019 18:21:43 - Falha interna da função <b>RELEASEALLMENU</b>!
+30/11/2019 18:21:43 - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em MCONTROL_OEE.mod_OEE.RELEASEALLMENU(String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 3109
+30/11/2019 18:23:23 - Falha interna da função <b>RELEASEALLMENU</b>!
+30/11/2019 18:23:23 - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em MCONTROL_OEE.mod_OEE.RELEASEALLMENU(String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 3109
+30/11/2019 18:23:32 - Falha interna da função <b>RELEASEALLMENU</b>!
+30/11/2019 18:23:32 - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em MCONTROL_OEE.mod_OEE.RELEASEALLMENU(String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 3109
+30/11/2019 18:25:07 - Falha interna da função <b>RELEASEALLMENU</b>!
+30/11/2019 18:25:07 - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em MCONTROL_OEE.mod_OEE.RELEASEALLMENU(String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 3109
+30/11/2019 18:51:50 - Falha interna da função <b>RELEASEALLMENU</b>!
+30/11/2019 18:51:50 - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em MCONTROL_OEE.mod_OEE.RELEASEALLMENU(String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 3122
+30/11/2019 18:52:29 - Falha interna da função <b>RELEASEALLMENU</b>!
+30/11/2019 18:52:29 - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em MCONTROL_OEE.mod_OEE.RELEASEALLMENU(String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 3122
+30/11/2019 18:52:52 - Falha interna da função <b>RELEASEALLMENU</b>!
+30/11/2019 18:52:52 - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em MCONTROL_OEE.mod_OEE.RELEASEALLMENU(String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 3122
+30/11/2019 18:55:30 - Falha interna da função <b>RELEASEALLMENU</b>!
+30/11/2019 18:55:30 - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em MCONTROL_OEE.mod_OEE.RELEASEALLMENU(String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 3122
+30/11/2019 18:55:42 - Falha interna da função <b>RELEASEALLMENU</b>!
+30/11/2019 18:55:42 - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em MCONTROL_OEE.mod_OEE.RELEASEALLMENU(String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 3122

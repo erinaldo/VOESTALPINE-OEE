@@ -1,0 +1,21 @@
+
+06/03/2021 18:49:20 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+06/03/2021 18:49:20 - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_GRUPO(Int32 intUSERID, Int32 intMES, Int32 intANO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 6961
+06/03/2021 18:49:32 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+06/03/2021 18:49:32 - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_GRUPO(Int32 intUSERID, Int32 intMES, Int32 intANO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 6961
+06/03/2021 19:01:03 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+06/03/2021 19:01:03 - System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value, IFormatProvider provider)
+   em System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   em System.Convert.ToDateTime(Object value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_GRUPO(Int32 intUSERID, Int32 intMES, Int32 intANO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 6970
+06/03/2021 19:01:48 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+06/03/2021 19:01:48 - System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value, IFormatProvider provider)
+   em System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   em System.Convert.ToDateTime(Object value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_GRUPO(Int32 intUSERID, Int32 intMES, Int32 intANO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 6970

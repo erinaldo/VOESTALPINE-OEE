@@ -1,0 +1,13 @@
+
+01/07/2020 14:54:58 - Falha interna da função <b>WriteDBUPDATEMACHINEDATA</b>
+01/07/2020 14:54:59 - System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'exe_MCONTROL_OEE_000032_Days' in the database.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBUPDATEMACHINEDATA(DataGridViewX dgvMAQUINA, String& strErro) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 708
+ClientConnectionId:021c123d-43db-4d78-a153-8e3fdf35aa81
+Error Number:2714,State:6,Class:16

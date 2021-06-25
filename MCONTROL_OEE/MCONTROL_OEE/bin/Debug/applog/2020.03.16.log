@@ -1,0 +1,19 @@
+
+16/03/2020 23:03:16 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+16/03/2020 23:03:16 - System.Data.SqlClient.SqlException (0x80131904): A conversão de um tipo de dados varchar em um tipo de dados datetime resultou em um valor fora do intervalo.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   em System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   em System.Data.SqlClient.SqlDataReader.Read()
+   em System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   em System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   em System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_PARCIAL(Int32 intUSERID, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 10310
+ClientConnectionId:a5f26ab5-e074-4783-974d-4e522c95e6ed
+Error Number:242,State:3,Class:16

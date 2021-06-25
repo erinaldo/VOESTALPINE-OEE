@@ -1,0 +1,16 @@
+
+15/01/2020 21:16:06 - Falha interna da função ReadDBGETSTATUS
+15/01/2020 21:16:06 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MControl_OEE.Module1.ReadDBGETSTATUS(Int32 intMACHINEID, Boolean& bolAGUARDANDO, String& strERROR) na C:\OMNIVIEWER-DEV\VIEWER\omniViewer\MControl_OEE\Module1.vb:linha 1127
+15/01/2020 22:09:58 - Falha interna da função ReadDBGETSTATUS
+15/01/2020 22:09:58 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MControl_OEE.Module1.ReadDBGETSTATUS(Int32 intMACHINEID, Boolean& bolAGUARDANDO, String& strERROR) na C:\OMNIVIEWER-DEV\VIEWER\omniViewer\MControl_OEE\Module1.vb:linha 1127
+15/01/2020 22:16:54 - Falha interna da função ReadDBGETSTATUS
+15/01/2020 22:16:54 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MControl_OEE.Module1.ReadDBGETSTATUS(Int32 intMACHINEID, Boolean& bolAGUARDANDO, String& strERROR) na C:\OMNIVIEWER-DEV\VIEWER\omniViewer\MControl_OEE\Module1.vb:linha 1127

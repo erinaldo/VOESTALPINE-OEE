@@ -1,0 +1,9 @@
+
+25/01/2020 00:43:34 - Falha interna da função WriteDBREPORTPRODUTIVIDADE_MENSAL
+25/01/2020 00:43:34 - System.InvalidCastException: A conversão da cadeia de caracteres 'Sunday' no tipo 'Double' não é válida. ---> System.FormatException: A cadeia de caracteres de entrada não estava em um formato correto.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE_GRUPO_DIARIO(String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 6496

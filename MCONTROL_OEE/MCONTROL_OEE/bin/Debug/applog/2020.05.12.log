@@ -1,0 +1,107 @@
+
+12/05/2020 07:34:24 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+12/05/2020 07:34:24 - System.Data.SqlClient.SqlException (0x80131904): Existem mais colunas na instrução INSERT do que valores especificados na cláusula VALUES. O número de valores da cláusula VALUES deve corresponder ao número de colunas especificado na instrução INSERT.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_GRUPO(Int32 intUSERID, String strDATAHOJE, Int32 intMES, Int32 intANO, Int32 intDIASUTEIS, Int32 intDIASUTEISHOJE, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 9614
+ClientConnectionId:cdb9b9db-cca3-4a96-95bd-ae70137955d6
+Error Number:109,State:1,Class:15
+12/05/2020 07:35:42 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+12/05/2020 07:35:42 - System.Data.SqlClient.SqlException (0x80131904): Existem mais colunas na instrução INSERT do que valores especificados na cláusula VALUES. O número de valores da cláusula VALUES deve corresponder ao número de colunas especificado na instrução INSERT.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_GRUPO(Int32 intUSERID, String strDATAHOJE, Int32 intMES, Int32 intANO, Int32 intDIASUTEIS, Int32 intDIASUTEISHOJE, String& strERROR)
+ClientConnectionId:2f5e9bde-a75d-4787-ad90-fe43b4a83620
+Error Number:109,State:1,Class:15
+12/05/2020 07:36:34 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+12/05/2020 07:36:34 - System.Data.SqlClient.SqlException (0x80131904): Existem menos colunas na instrução INSERT do que valores especificados na cláusula VALUES. O número de valores na cláusula VALUES deve corresponder ao número de colunas especificado na instrução INSERT.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_GRUPO(Int32 intUSERID, String strDATAHOJE, Int32 intMES, Int32 intANO, Int32 intDIASUTEIS, Int32 intDIASUTEISHOJE, String& strERROR)
+ClientConnectionId:2f5e9bde-a75d-4787-ad90-fe43b4a83620
+Error Number:110,State:1,Class:15
+12/05/2020 08:26:26 - Falha interna da função WriteDBREPORTAPONTAMENTOLIVRE
+12/05/2020 08:26:26 - System.Data.SqlClient.SqlException (0x80131904): Nome de coluna 'maquina' inválido.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTOLIVRE(ListBoxAdv lbMAQUINA, ListBoxAdv lbMAQUINAID, Int32 intUSERID, String strDATAINICIAL, String strHORAINICIAL, String strDATAFINAL, String strHORAFINAL, Int32 intDIASUTEIS, String& strERROR)
+ClientConnectionId:8f6b54e2-fc66-4bd9-9fdf-7e7c2d63b873
+Error Number:207,State:1,Class:16
+12/05/2020 15:12:11 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+12/05/2020 15:12:11 - System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'diasuteis'.
+Invalid column name 'totaldiasuteis'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_PARCIAL(Int32 intUSERID, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 11175
+ClientConnectionId:b870e598-09db-496e-bea0-60b37e05c735
+Error Number:207,State:1,Class:16
+12/05/2020 15:33:39 - Falha interna da função WriteDBREPORTPRODUTIVIDADE
+12/05/2020 15:33:39 - System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE_GRUPO(Int32 intANOFISCAL, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 6339
+12/05/2020 16:21:05 - Falha interna da função WriteDBREPORTPRODUTIVIDADE
+12/05/2020 16:21:05 - System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE_GRUPO(Int32 intANOFISCAL, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 6339
+12/05/2020 16:21:51 - Falha interna da função WriteDBREPORTPRODUTIVIDADE
+12/05/2020 16:21:51 - System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE_GRUPO(Int32 intANOFISCAL, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 6339
+12/05/2020 17:10:26 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+12/05/2020 17:10:26 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_GRUPO(Int32 intUSERID, Int32 intMES, Int32 intANO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 9583
+12/05/2020 17:11:32 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+12/05/2020 17:11:32 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_GRUPO(Int32 intUSERID, Int32 intMES, Int32 intANO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 9583
+12/05/2020 17:11:51 - Falha interna da função WriteDBREPORTPRODUTIVIDADE_GRUPO_MENSAL
+12/05/2020 17:11:51 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE_GRUPO_MENSAL(String intMES, Int32 intANO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 7479
+12/05/2020 17:14:20 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+12/05/2020 17:14:20 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_GRUPO(Int32 intUSERID, Int32 intMES, Int32 intANO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 9583
+12/05/2020 17:14:46 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+12/05/2020 17:14:46 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_GRUPO(Int32 intUSERID, Int32 intMES, Int32 intANO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 9583
+12/05/2020 17:20:51 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+12/05/2020 17:20:51 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_GRUPO(Int32 intUSERID, Int32 intMES, Int32 intANO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 9583

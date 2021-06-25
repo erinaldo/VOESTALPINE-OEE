@@ -1,0 +1,48 @@
+
+14/07/2020 17:25:05 - Falha interna da função ReadDBGETPARADAESCALA
+14/07/2020 17:25:05 - System.Data.SqlClient.SqlException (0x80131904): The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   em System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   em System.Data.SqlClient.SqlDataReader.Read()
+   em System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   em System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   em System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   em MCONTROL_OEE.mod_OEE.ReadDBGETPARADAESCALA(Int32 intMAQUINAID, String strTURNOTAG, Boolean& bolFOUND, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 3279
+ClientConnectionId:9d731c32-a0fe-45ba-b8aa-aada75c8f017
+Error Number:242,State:3,Class:16
+14/07/2020 17:31:40 - Falha interna da função ReadDBGETPARADAESCALA
+14/07/2020 17:31:40 - System.Data.SqlClient.SqlException (0x80131904): The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   em System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   em System.Data.SqlClient.SqlDataReader.Read()
+   em System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   em System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   em System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   em MCONTROL_OEE.mod_OEE.ReadDBGETPARADAESCALA(Int32 intMAQUINAID, String strTURNOTAG, Boolean& bolFOUND, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 3279
+ClientConnectionId:626caee2-0212-4ad4-a6cb-07a9f4c2a62e
+Error Number:242,State:3,Class:16
+14/07/2020 17:36:59 - Falha interna da função WriteDBREPORTAPONTAMENTOLIVRE
+14/07/2020 17:36:59 - System.ArgumentException: A coluna 'unidadde' não pertence à tabela Amarrado.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTOLIVRE(ListBoxAdv lbMAQUINA, ListBoxAdv lbMAQUINAID, Int32 intUSERID, String strDATAINICIAL, String strHORAINICIAL, String strDATAFINAL, String strHORAFINAL, Int32 intDIASUTEIS, String& strERROR)
+14/07/2020 17:39:47 - Falha interna da função WriteDBREPORTAPONTAMENTOLIVRE
+14/07/2020 17:39:47 - System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTOLIVRE(ListBoxAdv lbMAQUINA, ListBoxAdv lbMAQUINAID, Int32 intUSERID, String strDATAINICIAL, String strHORAINICIAL, String strDATAFINAL, String strHORAFINAL, Int32 intDIASUTEIS, String& strERROR)
+14/07/2020 17:51:36 - Falha interna da função WriteDBREPORTAPONTAMENTOLIVRE
+14/07/2020 17:51:36 - System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTOLIVRE(ListBoxAdv lbMAQUINA, ListBoxAdv lbMAQUINAID, Int32 intUSERID, String strDATAINICIAL, String strHORAINICIAL, String strDATAFINAL, String strHORAFINAL, Int32 intDIASUTEIS, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 9562

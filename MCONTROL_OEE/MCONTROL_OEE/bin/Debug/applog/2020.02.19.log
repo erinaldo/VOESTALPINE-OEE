@@ -1,0 +1,42 @@
+
+19/02/2020 10:10:37 - Falha interna da função WriteDBUPDATETURNO
+19/02/2020 10:10:37 - System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '07'.
+Unclosed quotation mark after the character string ', [horainicial2] = ', [horafinal2] = ' WHERE [Id] = 30 AND [idmaquina] = 3'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBUPDATETURNO(Int32 intMACHINEID, DataGridViewX dgvTURNO, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 2693
+ClientConnectionId:7a594a81-35ba-4828-9f02-682c499c9e7a
+Error Number:102,State:1,Class:15
+19/02/2020 10:11:35 - Falha interna da função WriteDBUPDATETURNO
+19/02/2020 10:11:35 - System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '07'.
+Unclosed quotation mark after the character string ', [horainicial2] = ', [horafinal2] = ' WHERE [Id] = 30 AND [idmaquina] = 3'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBUPDATETURNO(Int32 intMACHINEID, DataGridViewX dgvTURNO, String& strERROR)
+ClientConnectionId:3844e599-cd56-454b-ad5f-0291278975e4
+Error Number:102,State:1,Class:15
+19/02/2020 12:57:24 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+19/02/2020 12:57:24 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_GRUPO(Int32 intUSERID, String strDATAHOJE, Int32 intMES, Int32 intANO, Int32 intDIASUTEIS, Int32 intDIASUTEISHOJE, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 8052
+19/02/2020 13:33:47 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+19/02/2020 13:33:47 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_GRUPO(Int32 intUSERID, String strDATAHOJE, Int32 intMES, Int32 intANO, Int32 intDIASUTEIS, Int32 intDIASUTEISHOJE, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 8052
+19/02/2020 13:35:30 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+19/02/2020 13:35:30 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_GRUPO(Int32 intUSERID, String strDATAHOJE, Int32 intMES, Int32 intANO, Int32 intDIASUTEIS, Int32 intDIASUTEISHOJE, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 8052

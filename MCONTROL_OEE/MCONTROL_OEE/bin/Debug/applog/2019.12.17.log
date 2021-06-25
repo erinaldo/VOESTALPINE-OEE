@@ -1,0 +1,58 @@
+
+17/12/2019 00:40:20 - Falha interna da função <b>clsoVDBASQL.WriteDBUPDATEPARADA!</b>
+17/12/2019 00:40:20 - System.InvalidOperationException: ExecuteNonQuery: propriedade CommandText não foi inicializada
+   em System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBUPDATEPARADA(Int32 intPARADAID, String strDATAINICIAL, String strHoraINICIAL, String strDATAFINAL, String strHORAFINAL, String strNIVEL1, String strNIVEL2, String strNIVEL3, String strNIVEL1ID, String strNIVEL2ID, String strNIVEL3ID, Int32 intOPERADORID, String strCOMENTARIOS, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 4975
+17/12/2019 01:19:11 - Falha interna da função <b>clsoVDBASQL.WriteDBUPDATEPARADA!</b>
+17/12/2019 01:19:11 - System.Data.SqlClient.SqlException (0x80131904): Sintaxe incorreta próxima a 'rrrr'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBADDPARADA(Int32 intPARADAID, String strDATAINICIAL, String strHoraINICIAL, String strDATAFINAL, String strHORAFINAL, String strNIVEL1, String strNIVEL2, String strNIVEL3, String strNIVEL1ID, String strNIVEL2ID, String strNIVEL3ID, Int32 intOPERADORID, String strCOMENTARIOS, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5104
+ClientConnectionId:9e36c485-57ce-40d0-a6db-f52c08be5e9f
+Error Number:102,State:1,Class:15
+17/12/2019 01:20:55 - Falha interna da função <b>clsoVDBASQL.WriteDBUPDATEPARADA!</b>
+17/12/2019 01:20:55 - System.Data.SqlClient.SqlException (0x80131904): Não é possível inserir o valor NULL na coluna 'MachineId', tabela 'oViewer.dbo.exe_MCONTROL_OEE_HistoricoParadas'; a coluna não permite nulos. Falha em INSERT.
+A instrução foi finalizada.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBADDPARADA(Int32 intPARADAID, String strDATAINICIAL, String strHoraINICIAL, String strDATAFINAL, String strHORAFINAL, String strNIVEL1, String strNIVEL2, String strNIVEL3, String strNIVEL1ID, String strNIVEL2ID, String strNIVEL3ID, Int32 intOPERADORID, String strCOMENTARIOS, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5104
+ClientConnectionId:a128cb10-9d3a-4418-8785-35ba1f7c5913
+Error Number:515,State:2,Class:16
+17/12/2019 20:53:30 - Falha interna da função ReadDBGETPARADAS
+17/12/2019 20:53:30 - System.Data.SqlClient.SqlException (0x80131904): Sintaxe incorreta próxima a ':'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE(Int32 intMACHINEID, String strDATAINICIAL, String strDATAFINAL, Int32 intTURNOINICIAL, Int32 intTURNOFINAL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 4997
+ClientConnectionId:5c05e424-98c7-4c32-81a1-2746ce21a10f
+Error Number:102,State:1,Class:15
+17/12/2019 20:58:34 - Falha interna da função ReadDBGETPARADAS
+17/12/2019 20:58:34 - System.OverflowException: Valor era muito grande ou muito pequeno para Decimal.
+   em System.Decimal..ctor(Double value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE(Int32 intMACHINEID, String strDATAINICIAL, String strDATAFINAL, Int32 intTURNOINICIAL, Int32 intTURNOFINAL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 4978
+17/12/2019 23:06:38 - Falha interna da função ReadDBGETPARADAS
+17/12/2019 23:06:38 - System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTMANUTENCAO(Int32 intMACHINEID, String strDATAINICIAL, String strDATAFINAL, Int32 intTURNOINICIAL, Int32 intTURNOFINAL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5142
+17/12/2019 23:49:44 - Falha interna da função ReadDBGETPARADAS
+17/12/2019 23:49:44 - System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTMANUTENCAO(Int32 intMACHINEID, String strDATAINICIAL, String strDATAFINAL, Int32 intTURNOINICIAL, Int32 intTURNOFINAL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5142

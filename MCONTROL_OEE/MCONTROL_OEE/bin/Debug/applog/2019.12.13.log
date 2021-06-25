@@ -1,0 +1,67 @@
+
+13/12/2019 10:18:38 - Falha interna da função ReadDBGETPARADAS
+13/12/2019 10:18:38 - System.Data.SqlClient.SqlException (0x80131904): The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   em System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   em System.Data.SqlClient.SqlDataReader.Read()
+   em System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   em System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   em System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   em MCONTROL_OEE.mod_OEE.ReadDBGETPARADAS(String strDataInicial, String strDataFinal, String strMachineId, DataGridViewX& dgvPARADAS, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 1477
+ClientConnectionId:34ba72c2-4f1a-4fc4-a38c-c3ffd5a16306
+Error Number:242,State:3,Class:16
+13/12/2019 10:24:28 - Falha interna da função ReadDBGETPARADAS
+13/12/2019 10:24:28 - System.Data.SqlClient.SqlException (0x80131904): The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   em System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   em System.Data.SqlClient.SqlDataReader.Read()
+   em System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   em System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   em System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   em MCONTROL_OEE.mod_OEE.ReadDBGETPARADAS(String strDataInicial, String strDataFinal, String strMachineId, DataGridViewX& dgvPARADAS, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 1477
+ClientConnectionId:19b3f625-02aa-486b-92e1-501e0f0291d7
+Error Number:242,State:3,Class:16
+13/12/2019 10:24:43 - Falha interna da função ReadDBCHART_PARETO
+13/12/2019 10:24:43 - System.Data.SqlClient.SqlException (0x80131904): The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   em System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   em System.Data.SqlClient.SqlDataReader.Read()
+   em System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   em System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   em System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   em MCONTROL_OEE.mod_OEE.ReadDBCHART_PARETO(String strDATAINICIAL, String strHORAINICIAL, String strDATAFINAL, String strHORAFINAL, ListBoxAdv lbMAQUINASID, ListBoxAdv lbNIVEL1ID, ListBoxAdv lbNIVEL2ID, ListBoxAdv lbNIVEL3ID, ListBoxAdv lbTURNOID, ChartXy& Chart, PieChart& PieChart, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 4560
+ClientConnectionId:23dd6423-b68d-4353-b3bb-aabb17eb47e0
+Error Number:242,State:3,Class:16
+13/12/2019 10:32:57 - Falha interna da função ReadDBCHART_PARETO
+13/12/2019 10:32:57 - System.InvalidCastException: O operador '=' não está definido para cadeia de caracteres "1" e tipo 'DBNull'.
+   em Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectEqual(Object Left, Object Right, Boolean TextCompare)
+   em MCONTROL_OEE.mod_OEE.ReadDBCHART_PARETO(String strDATAINICIAL, String strHORAINICIAL, String strDATAFINAL, String strHORAFINAL, ListBoxAdv lbMAQUINASID, ListBoxAdv lbNIVEL1ID, ListBoxAdv lbNIVEL2ID, ListBoxAdv lbNIVEL3ID, ListBoxAdv lbTURNOID, ChartXy& Chart, PieChart& PieChart, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 4640
+13/12/2019 10:34:46 - Falha interna da função ReadDBCHART_PARETO
+13/12/2019 10:34:46 - System.InvalidCastException: O operador '=' não está definido para cadeia de caracteres "1" e tipo 'DBNull'.
+   em Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectEqual(Object Left, Object Right, Boolean TextCompare)
+   em MCONTROL_OEE.mod_OEE.ReadDBCHART_PARETO(String strDATAINICIAL, String strHORAINICIAL, String strDATAFINAL, String strHORAFINAL, ListBoxAdv lbMAQUINASID, ListBoxAdv lbNIVEL1ID, ListBoxAdv lbNIVEL2ID, ListBoxAdv lbNIVEL3ID, ListBoxAdv lbTURNOID, ChartXy& Chart, PieChart& PieChart, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 4640
+13/12/2019 10:37:05 - Falha interna da função ReadDBCHART_PARETO
+13/12/2019 10:37:05 - System.InvalidCastException: O operador '=' não está definido para cadeia de caracteres "1" e tipo 'DBNull'.
+   em Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectEqual(Object Left, Object Right, Boolean TextCompare)
+   em MCONTROL_OEE.mod_OEE.ReadDBCHART_PARETO(String strDATAINICIAL, String strHORAINICIAL, String strDATAFINAL, String strHORAFINAL, ListBoxAdv lbMAQUINASID, ListBoxAdv lbNIVEL1ID, ListBoxAdv lbNIVEL2ID, ListBoxAdv lbNIVEL3ID, ListBoxAdv lbTURNOID, ChartXy& Chart, PieChart& PieChart, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 4640

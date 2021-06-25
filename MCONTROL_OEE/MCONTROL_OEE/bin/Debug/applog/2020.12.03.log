@@ -1,0 +1,16 @@
+
+03/12/2020 17:45:11 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+03/12/2020 17:45:11 - System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_PARCIAL(Int32 intUSERID, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 7368
+03/12/2020 17:47:19 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+03/12/2020 17:47:19 - System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_PARCIAL(Int32 intUSERID, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 7368
+03/12/2020 17:48:40 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+03/12/2020 17:48:40 - System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_PARCIAL(Int32 intUSERID, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 7368

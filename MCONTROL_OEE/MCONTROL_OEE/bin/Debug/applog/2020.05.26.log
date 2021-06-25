@@ -1,0 +1,68 @@
+
+26/05/2020 15:24:54 - Falha interna da função ReadDBGETOPPRODUTO
+26/05/2020 15:24:54 - System.ArgumentException: A coluna 'opstatus' não pertence à tabela OP.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETOPPRODUTO(String& strOP, String& strPRODUTO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 178
+26/05/2020 15:24:54 - Falha interna da função ReadDBGETOPPRODUTO
+26/05/2020 15:24:54 - System.ArgumentException: A coluna 'opstatus' não pertence à tabela OP.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETOPPRODUTO(String& strOP, String& strPRODUTO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 178
+26/05/2020 15:24:59 - Falha interna da função ReadDBGETOPPRODUTO
+26/05/2020 15:24:59 - System.ArgumentException: A coluna 'opstatus' não pertence à tabela OP.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETOPPRODUTO(String& strOP, String& strPRODUTO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 178
+26/05/2020 15:25:00 - Falha interna da função ReadDBGETOPPRODUTO
+26/05/2020 15:25:00 - System.ArgumentException: A coluna 'opstatus' não pertence à tabela OP.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETOPPRODUTO(String& strOP, String& strPRODUTO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 178
+26/05/2020 15:25:05 - Falha interna da função ReadDBGETOPPRODUTO
+26/05/2020 15:25:05 - System.ArgumentException: A coluna 'opstatus' não pertence à tabela OP.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETOPPRODUTO(String& strOP, String& strPRODUTO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 178
+26/05/2020 15:25:05 - Falha interna da função ReadDBGETOPPRODUTO
+26/05/2020 15:25:05 - System.ArgumentException: A coluna 'opstatus' não pertence à tabela OP.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETOPPRODUTO(String& strOP, String& strPRODUTO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 178
+26/05/2020 15:25:10 - Falha interna da função ReadDBGETOPPRODUTO
+26/05/2020 15:25:10 - System.ArgumentException: A coluna 'opstatus' não pertence à tabela OP.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETOPPRODUTO(String& strOP, String& strPRODUTO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 178
+26/05/2020 15:25:11 - Falha interna da função ReadDBGETOPPRODUTO
+26/05/2020 15:25:11 - System.ArgumentException: A coluna 'opstatus' não pertence à tabela OP.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETOPPRODUTO(String& strOP, String& strPRODUTO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 178
+26/05/2020 15:25:15 - Falha interna da função ReadDBGETOPPRODUTO
+26/05/2020 15:25:15 - System.ArgumentException: A coluna 'opstatus' não pertence à tabela OP.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETOPPRODUTO(String& strOP, String& strPRODUTO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 178
+26/05/2020 15:25:16 - Falha interna da função ReadDBGETOPPRODUTO
+26/05/2020 15:25:16 - System.ArgumentException: A coluna 'opstatus' não pertence à tabela OP.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETOPPRODUTO(String& strOP, String& strPRODUTO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 178
+26/05/2020 15:25:21 - Falha interna da função ReadDBGETOPPRODUTO
+26/05/2020 15:25:21 - System.ArgumentException: A coluna 'opstatus' não pertence à tabela OP.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETOPPRODUTO(String& strOP, String& strPRODUTO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 178
+26/05/2020 15:25:21 - Falha interna da função ReadDBGETOPPRODUTO
+26/05/2020 15:25:21 - System.ArgumentException: A coluna 'opstatus' não pertence à tabela OP.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETOPPRODUTO(String& strOP, String& strPRODUTO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 178
+26/05/2020 15:29:11 - Falha interna da função ReadDBCHECKTEMPOCALENDARIO
+26/05/2020 15:29:11 - System.FormatException: A cadeia de caracteres não foi reconhecida como um DateTime válido. Há uma palavra desconhecida que começa no índice 2.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value, IFormatProvider provider)
+   em System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   em System.Convert.ToDateTime(Object value)
+   em MCONTROL_OEE.mod_OEE.ReadDBCHECKTEMPOCALENDARIO(DataGridViewX& advtPARADAS, String strDATAINICIAL, String strDATAFINAL, Boolean& bolFOUND, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 11306

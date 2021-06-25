@@ -1,0 +1,109 @@
+
+01/12/2019 14:33:37 - Falha interna da função WriteDBSAVEMOTIVOS
+01/12/2019 14:33:37 - System.Data.SqlClient.SqlException (0x80131904): Sintaxe incorreta próxima à palavra-chave 'SET'.
+Sintaxe incorreta próxima à palavra-chave 'SET'.
+Aspas não fechadas depois da cadeia de caracteres 'Teste 2)'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBSAVEMOTIVOS(DataGridViewX dgvMOTIVOS, Int32 intNIVEL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 966
+ClientConnectionId:a94747e6-9b0d-4b3e-bdd5-9044a1e8266e
+Error Number:156,State:1,Class:15
+01/12/2019 14:44:08 - Falha interna da função WriteDBSAVEMOTIVOS
+01/12/2019 14:44:08 - System.Data.SqlClient.SqlException (0x80131904): Sintaxe incorreta próxima à palavra-chave 'SET'.
+Sintaxe incorreta próxima à palavra-chave 'SET'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBSAVEMOTIVOS(DataGridViewX dgvMOTIVOS, Int32 intNIVEL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 966
+ClientConnectionId:4d28e3f4-849f-41d1-9907-f1eb9a16e6f0
+Error Number:156,State:1,Class:15
+01/12/2019 14:47:36 - Falha interna da função WriteDBSAVEMOTIVOS
+01/12/2019 14:47:36 - System.Data.SqlClient.SqlException (0x80131904): Sintaxe incorreta próxima à palavra-chave 'SET'.
+Sintaxe incorreta próxima à palavra-chave 'SET'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBSAVEMOTIVOS(DataGridViewX dgvMOTIVOS, Int32 intNIVEL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 966
+ClientConnectionId:f5a34c9c-807b-475d-aaa8-84195fc3fcdf
+Error Number:156,State:1,Class:15
+01/12/2019 14:48:40 - Falha interna da função WriteDBSAVEMOTIVOS
+01/12/2019 14:48:40 - System.Data.SqlClient.SqlException (0x80131904): Sintaxe incorreta próxima à palavra-chave 'SET'.
+Sintaxe incorreta próxima à palavra-chave 'SET'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBSAVEMOTIVOS(DataGridViewX dgvMOTIVOS, Int32 intNIVEL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 966
+ClientConnectionId:13e082fc-f6aa-4aa4-9fdf-4c408a075842
+Error Number:156,State:1,Class:15
+01/12/2019 15:09:04 - Falha interna da função WriteDBSAVEMOTIVOS
+01/12/2019 15:09:04 - System.Data.SqlClient.SqlException (0x80131904): Sintaxe incorreta próxima à palavra-chave 'SET'.
+Sintaxe incorreta próxima à palavra-chave 'SET'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBSAVEMOTIVOS(DataGridViewX dgvMOTIVOS, Int32 intNIVEL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 944
+ClientConnectionId:02d99386-0123-476c-8f87-99620b1f3c71
+Error Number:156,State:1,Class:15
+01/12/2019 22:44:25 - Falha interna da função WriteDBUPDATETURNO
+01/12/2019 22:44:25 - System.ArgumentOutOfRangeException: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.Collections.ArrayList.get_Item(Int32 index)
+   em System.Windows.Forms.DataGridViewCellCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.WriteDBUPDATETURNO(DataGridViewX dgvTURNO, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 2193
+01/12/2019 22:47:18 - Falha interna da função WriteDBUPDATETURNO
+01/12/2019 22:47:18 - System.Data.SqlClient.SqlException (0x80131904): Dados de cadeia ou binários seriam truncados.
+A instrução foi finalizada.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBUPDATETURNO(DataGridViewX dgvTURNO, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 2185
+ClientConnectionId:5eccbbbc-f56a-44bc-a2f5-4f97d62492c4
+Error Number:8152,State:14,Class:16
+01/12/2019 23:11:31 - Falha interna da função WriteDBUPDATETURNO
+01/12/2019 23:11:31 - System.Data.SqlClient.SqlException (0x80131904): Aspas não fechadas depois da cadeia de caracteres '06:35 WHERE [Id] = 3'.
+Sintaxe incorreta próxima a '06:35 WHERE [Id] = 3'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBUPDATETURNO(DataGridViewX dgvTURNO, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 2199
+ClientConnectionId:d103b971-2359-4d6d-9e41-423a59a01a19
+Error Number:105,State:1,Class:15
+01/12/2019 23:35:53 - Falha interna da função WriteDBUPDATETURNO
+01/12/2019 23:35:53 - System.InvalidCastException: A conversão do tipo 'DBNull' no tipo 'String' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   em MCONTROL_OEE.mod_OEE.WriteDBUPDATETURNO(DataGridViewX dgvTURNO, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 2200
+01/12/2019 23:41:09 - Falha interna da função WriteDBUPDATETURNO
+01/12/2019 23:41:09 - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em MCONTROL_OEE.mod_OEE.WriteDBUPDATETURNO(DataGridViewX dgvTURNO, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 2198
+01/12/2019 23:41:55 - Falha interna da função WriteDBUPDATETURNO
+01/12/2019 23:41:55 - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em MCONTROL_OEE.mod_OEE.WriteDBUPDATETURNO(DataGridViewX dgvTURNO, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 2198

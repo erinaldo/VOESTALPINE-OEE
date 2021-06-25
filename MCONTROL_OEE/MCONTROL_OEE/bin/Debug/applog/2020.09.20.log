@@ -1,0 +1,7 @@
+
+20/09/2020 11:12:08 - Falha interna da função ReadDBCHART_PARETO
+20/09/2020 11:12:08 - System.FormatException: A cadeia de caracteres de entrada não estava em um formato correto.
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Convert.ToInt32(String value)
+   em MCONTROL_OEE.mod_OEE.ReadDBCHART_PARETO(String strDATAINICIAL, String strHORAINICIAL, String strDATAFINAL, String strHORAFINAL, ListBoxAdv lbMAQUINASID, ListBoxAdv lbNIVEL1ID, ListBoxAdv lbNIVEL2ID, ListBoxAdv lbNIVEL3ID, ListBoxAdv lbTURNO, ChartXy& Chart, ChartXy& Chart2, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5684

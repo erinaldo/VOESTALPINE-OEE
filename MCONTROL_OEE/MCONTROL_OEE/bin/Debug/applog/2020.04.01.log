@@ -1,0 +1,41 @@
+
+01/04/2020 09:56:45 - Falha interna da função ReadDBCHART_PARETO
+01/04/2020 09:56:45 - System.Runtime.InteropServices.COMException (0x800A03EC): Não foi possível encontrar C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\models\PARETO_PARADAS_.xls. É possível que ele tenha sido movido, renomeado ou excluído?
+   em Microsoft.VisualBasic.CompilerServices.LateBinding.LateGet(Object o, Type objType, String name, Object[] args, String[] paramnames, Boolean[] CopyBack)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em MCONTROL_OEE.mod_OEE.WriteDBEXPORTEXCEL(String strDATAINICIAL, String strHORAINICIAL, String strDATAFINAL, String strHORAFINAL, ListBoxAdv lbMAQUINASID, ListBoxAdv lbNIVEL1ID, ListBoxAdv lbNIVEL2ID, ListBoxAdv lbNIVEL3ID, ListBoxAdv lbTURNO, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5604
+01/04/2020 09:57:57 - Falha interna da função ReadDBCHART_PARETO
+01/04/2020 09:57:57 - System.Runtime.InteropServices.COMException (0x800A03EC): Não foi possível encontrar C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\models\PARETO_PARADAS_.xls. É possível que ele tenha sido movido, renomeado ou excluído?
+   em Microsoft.VisualBasic.CompilerServices.LateBinding.LateGet(Object o, Type objType, String name, Object[] args, String[] paramnames, Boolean[] CopyBack)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em MCONTROL_OEE.mod_OEE.WriteDBEXPORTEXCEL(String strDATAINICIAL, String strHORAINICIAL, String strDATAFINAL, String strHORAFINAL, ListBoxAdv lbMAQUINASID, ListBoxAdv lbNIVEL1ID, ListBoxAdv lbNIVEL2ID, ListBoxAdv lbNIVEL3ID, ListBoxAdv lbTURNO, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5604
+01/04/2020 09:58:01 - Falha interna da função ReadDBCHART_PARETO
+01/04/2020 09:58:01 - System.Runtime.InteropServices.COMException (0x800A03EC): Não foi possível encontrar C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\models\PARETO_PARADAS_.xls. É possível que ele tenha sido movido, renomeado ou excluído?
+   em Microsoft.VisualBasic.CompilerServices.LateBinding.LateGet(Object o, Type objType, String name, Object[] args, String[] paramnames, Boolean[] CopyBack)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em MCONTROL_OEE.mod_OEE.WriteDBEXPORTEXCEL(String strDATAINICIAL, String strHORAINICIAL, String strDATAFINAL, String strHORAFINAL, ListBoxAdv lbMAQUINASID, ListBoxAdv lbNIVEL1ID, ListBoxAdv lbNIVEL2ID, ListBoxAdv lbNIVEL3ID, ListBoxAdv lbTURNO, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5604
+01/04/2020 10:00:43 - Falha interna da função ReadDBCHART_PARETO
+01/04/2020 10:00:43 - System.Runtime.InteropServices.COMException (0x800A03EC): Não foi possível encontrar C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\models\PARETO_PARADAS_.xls. É possível que ele tenha sido movido, renomeado ou excluído?
+   em Microsoft.VisualBasic.CompilerServices.LateBinding.LateGet(Object o, Type objType, String name, Object[] args, String[] paramnames, Boolean[] CopyBack)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em MCONTROL_OEE.mod_OEE.WriteDBEXPORTEXCEL(String strDATAINICIAL, String strHORAINICIAL, String strDATAFINAL, String strHORAFINAL, ListBoxAdv lbMAQUINASID, ListBoxAdv lbNIVEL1ID, ListBoxAdv lbNIVEL2ID, ListBoxAdv lbNIVEL3ID, ListBoxAdv lbTURNO, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5604
+01/04/2020 10:01:13 - Falha interna da função ReadDBCHART_PARETO
+01/04/2020 10:01:13 - System.Runtime.InteropServices.COMException (0x8002000B): Índice inválido. (Exceção de HRESULT: 0x8002000B (DISP_E_BADINDEX))
+   em Microsoft.VisualBasic.CompilerServices.LateBinding.LateGet(Object o, Type objType, String name, Object[] args, String[] paramnames, Boolean[] CopyBack)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em MCONTROL_OEE.mod_OEE.WriteDBEXPORTEXCEL(String strDATAINICIAL, String strHORAINICIAL, String strDATAFINAL, String strHORAFINAL, ListBoxAdv lbMAQUINASID, ListBoxAdv lbNIVEL1ID, ListBoxAdv lbNIVEL2ID, ListBoxAdv lbNIVEL3ID, ListBoxAdv lbTURNO, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5605
+01/04/2020 10:03:42 - Falha interna da função ReadDBCHART_PARETO
+01/04/2020 10:03:42 - System.Runtime.InteropServices.COMException (0x8002000B): Índice inválido. (Exceção de HRESULT: 0x8002000B (DISP_E_BADINDEX))
+   em Microsoft.VisualBasic.CompilerServices.LateBinding.LateGet(Object o, Type objType, String name, Object[] args, String[] paramnames, Boolean[] CopyBack)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em MCONTROL_OEE.mod_OEE.WriteDBEXPORTEXCEL(String strDATAINICIAL, String strHORAINICIAL, String strDATAFINAL, String strHORAFINAL, ListBoxAdv lbMAQUINASID, ListBoxAdv lbNIVEL1ID, ListBoxAdv lbNIVEL2ID, ListBoxAdv lbNIVEL3ID, ListBoxAdv lbTURNO, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5605
+01/04/2020 14:28:06 - Falha interna da função ReadDBCHART_PARETO
+01/04/2020 14:28:06 - System.Runtime.InteropServices.COMException (0x80010001): A chamada foi rejeitada pelo chamado. (Exceção de HRESULT: 0x80010001 (RPC_E_CALL_REJECTED))
+   em Microsoft.VisualBasic.CompilerServices.LateBinding.LateGet(Object o, Type objType, String name, Object[] args, String[] paramnames, Boolean[] CopyBack)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em MCONTROL_OEE.mod_OEE.WriteDBEXPORTEXCEL(String strDATAINICIAL, String strHORAINICIAL, String strDATAFINAL, String strHORAFINAL, ListBoxAdv lbMAQUINASID, ListBoxAdv lbNIVEL1ID, ListBoxAdv lbNIVEL2ID, ListBoxAdv lbNIVEL3ID, ListBoxAdv lbTURNO, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5613
+01/04/2020 14:30:22 - Falha interna da função ReadDBCHART_PARETO
+01/04/2020 14:30:22 - System.Runtime.InteropServices.COMException (0x80010001): A chamada foi rejeitada pelo chamado. (Exceção de HRESULT: 0x80010001 (RPC_E_CALL_REJECTED))
+   em Microsoft.VisualBasic.CompilerServices.LateBinding.LateGet(Object o, Type objType, String name, Object[] args, String[] paramnames, Boolean[] CopyBack)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em MCONTROL_OEE.mod_OEE.WriteDBEXPORTEXCEL(String strDATAINICIAL, String strHORAINICIAL, String strDATAFINAL, String strHORAFINAL, ListBoxAdv lbMAQUINASID, ListBoxAdv lbNIVEL1ID, ListBoxAdv lbNIVEL2ID, ListBoxAdv lbNIVEL3ID, ListBoxAdv lbTURNO, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5613

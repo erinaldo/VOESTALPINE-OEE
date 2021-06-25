@@ -1,0 +1,8 @@
+
+10/03/2020 20:03:34 - Falha interna da função ReadDBCHECKTEMPOCALENDARIO
+10/03/2020 20:03:34 - System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value, IFormatProvider provider)
+   em System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   em System.Convert.ToDateTime(Object value)
+   em MCONTROL_OEE.mod_OEE.ReadDBCHECKTEMPOCALENDARIO(DataGridViewX& advtPARADAS, Int32 intMACHINEID, String strDATAINICIAL, String strDATAFINAL, Boolean& bolFOUND, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 10330

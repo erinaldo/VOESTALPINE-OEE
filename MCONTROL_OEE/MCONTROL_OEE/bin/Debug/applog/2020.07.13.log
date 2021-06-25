@@ -1,0 +1,6 @@
+
+13/07/2020 00:32:17 - Falha interna da função WriteDBREPORTMANUTENCAO_GRUPO
+13/07/2020 00:32:17 - System.DivideByZeroException: Tentativa de divisão por zero.
+   em System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   em System.Decimal.Divide(Decimal d1, Decimal d2)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTMANUTENCAO_GRUPO(ListBoxAdv lbMAQUINA, ListBoxAdv lbMAQUINAID, String strDATAINICIAL, String strDATAFINAL, String strHORAINICIAL, String strHORAFINAL, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 8818

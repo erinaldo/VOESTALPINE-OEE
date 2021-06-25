@@ -1,0 +1,5 @@
+
+29/11/2019 15:35:11 - Falha interna da função ReadUsuarios
+29/11/2019 15:35:11 - System.InvalidCastException: A conversão do tipo 'DBNull' no tipo 'String' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   em MControl_OEE.Module1.ReadUsuarios(ComboBox& cbUsers, String[,]& strUsersData, String& strErro) na C:\OMNIVIEWER-DEV\VIEWER\omniViewer\MControl_OEE\Module1.vb:linha 168

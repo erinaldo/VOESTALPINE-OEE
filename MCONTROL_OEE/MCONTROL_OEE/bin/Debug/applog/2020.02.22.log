@@ -1,0 +1,41 @@
+
+22/02/2020 10:09:17 - Falha interna da função WriteDBREPORTPRODUTIVIDADE
+22/02/2020 10:09:17 - System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE_GRUPO_MENSAL(String intMES, Int32 intANO, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 6562
+22/02/2020 10:27:04 - Falha interna da função WriteDBREPORTPRODUTIVIDADE_GRUPO_DIARIO
+22/02/2020 10:27:04 - System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE_GRUPO_DIARIO(String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 7390
+22/02/2020 10:27:18 - Falha interna da função WriteDBREPORTPRODUTIVIDADE_GRUPO_DIARIO
+22/02/2020 10:27:18 - System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE_GRUPO_DIARIO(String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 7390
+22/02/2020 14:47:04 - Falha interna da função WriteDBREPORTPRODUTIVIDADE_GRUPO_DIARIO
+22/02/2020 14:47:04 - System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE_GRUPO_DIARIO(String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 7390
+22/02/2020 14:48:58 - Falha interna da função WriteDBREPORTPRODUTIVIDADE_GRUPO_DIARIO
+22/02/2020 14:48:58 - System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE_GRUPO_DIARIO(String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 7390
+22/02/2020 14:50:50 - Falha interna da função WriteDBREPORTPRODUTIVIDADE_GRUPO_DIARIO
+22/02/2020 14:50:50 - System.DivideByZeroException: Tentativa de divisão por zero.
+   em System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   em System.Decimal.Divide(Decimal d1, Decimal d2)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE_GRUPO_DIARIO(String& strERROR)
+22/02/2020 16:24:42 - Falha interna da função WriteDBREPORTPRODUTIVIDADE_GRUPO_MENSAL
+22/02/2020 16:24:42 - System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE_GRUPO_LIVRE(String strDATAINICIAL, String strHORAINICIAL, String strDATAFINAL, String strHORAFINAL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 9147
+22/02/2020 16:25:12 - Falha interna da função WriteDBREPORTPRODUTIVIDADE_GRUPO_MENSAL
+22/02/2020 16:25:12 - System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE_GRUPO_LIVRE(String strDATAINICIAL, String strHORAINICIAL, String strDATAFINAL, String strHORAFINAL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 9147

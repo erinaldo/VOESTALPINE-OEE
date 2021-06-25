@@ -1,0 +1,16 @@
+
+02/09/2020 23:48:30 - Falha interna da função WriteDBREPORTTEMPOCALENDARIO
+02/09/2020 23:48:30 - System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTTEMPOCALENDARIO(ListBoxAdv lbMAQUINA, ListBoxAdv lbMAQUINAID, String strDATAINICIALORIGINAL, String strDATAFINALORIGINAL, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 11182
+02/09/2020 23:49:05 - Falha interna da função WriteDBREPORTTEMPOCALENDARIO
+02/09/2020 23:49:05 - System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTTEMPOCALENDARIO(ListBoxAdv lbMAQUINA, ListBoxAdv lbMAQUINAID, String strDATAINICIALORIGINAL, String strDATAFINALORIGINAL, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 11182
+02/09/2020 23:50:51 - Falha interna da função WriteDBREPORTTEMPOCALENDARIO
+02/09/2020 23:50:51 - System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTTEMPOCALENDARIO(ListBoxAdv lbMAQUINA, ListBoxAdv lbMAQUINAID, String strDATAINICIALORIGINAL, String strDATAFINALORIGINAL, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 11182
+02/09/2020 23:52:34 - Falha interna da função WriteDBREPORTTEMPOCALENDARIO
+02/09/2020 23:52:34 - System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTTEMPOCALENDARIO(ListBoxAdv lbMAQUINA, ListBoxAdv lbMAQUINAID, String strDATAINICIALORIGINAL, String strDATAFINALORIGINAL, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 11182
+02/09/2020 23:54:41 - Falha interna da função WriteDBREPORTTEMPOCALENDARIO
+02/09/2020 23:54:41 - System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTTEMPOCALENDARIO(ListBoxAdv lbMAQUINA, ListBoxAdv lbMAQUINAID, String strDATAINICIALORIGINAL, String strDATAFINALORIGINAL, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 11182

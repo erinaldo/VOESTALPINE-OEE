@@ -1,0 +1,66 @@
+
+22/06/2020 08:49:43 - Falha interna da função ReadDBGETOPPRODUTO
+22/06/2020 08:49:43 - System.ArgumentException: A coluna 'opstatus' não pertence à tabela OP.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETOPPRODUTO(String& strOP, String& strPRODUTO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 178
+22/06/2020 08:49:46 - Falha interna da função ReadDBGETOPPRODUTO
+22/06/2020 08:49:46 - System.ArgumentException: A coluna 'opstatus' não pertence à tabela OP.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETOPPRODUTO(String& strOP, String& strPRODUTO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 178
+22/06/2020 08:49:48 - Falha interna da função ReadDBGETOPPRODUTO
+22/06/2020 08:49:48 - System.ArgumentException: A coluna 'opstatus' não pertence à tabela OP.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETOPPRODUTO(String& strOP, String& strPRODUTO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 178
+22/06/2020 08:49:54 - Falha interna da função ReadDBGETOPPRODUTO
+22/06/2020 08:49:54 - System.ArgumentException: A coluna 'opstatus' não pertence à tabela OP.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETOPPRODUTO(String& strOP, String& strPRODUTO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 178
+22/06/2020 08:49:58 - Falha interna da função ReadDBGETOPPRODUTO
+22/06/2020 08:49:58 - System.ArgumentException: A coluna 'opstatus' não pertence à tabela OP.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETOPPRODUTO(String& strOP, String& strPRODUTO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 178
+22/06/2020 08:50:02 - Falha interna da função ReadDBGETOPPRODUTO
+22/06/2020 08:50:02 - System.ArgumentException: A coluna 'opstatus' não pertence à tabela OP.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETOPPRODUTO(String& strOP, String& strPRODUTO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 178
+22/06/2020 08:50:06 - Falha interna da função ReadDBGETOPPRODUTO
+22/06/2020 08:50:06 - System.ArgumentException: A coluna 'opstatus' não pertence à tabela OP.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETOPPRODUTO(String& strOP, String& strPRODUTO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 178
+22/06/2020 08:50:10 - Falha interna da função ReadDBGETOPPRODUTO
+22/06/2020 08:50:10 - System.ArgumentException: A coluna 'opstatus' não pertence à tabela OP.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETOPPRODUTO(String& strOP, String& strPRODUTO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 178
+22/06/2020 08:50:15 - Falha interna da função ReadDBGETOPPRODUTO
+22/06/2020 08:50:15 - System.ArgumentException: A coluna 'opstatus' não pertence à tabela OP.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETOPPRODUTO(String& strOP, String& strPRODUTO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 178
+22/06/2020 08:50:18 - Falha interna da função ReadDBGETOPPRODUTO
+22/06/2020 08:50:18 - System.ArgumentException: A coluna 'opstatus' não pertence à tabela OP.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETOPPRODUTO(String& strOP, String& strPRODUTO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 178
+22/06/2020 08:50:21 - Falha interna da função ReadDBGETOPPRODUTO
+22/06/2020 08:50:21 - System.ArgumentException: A coluna 'opstatus' não pertence à tabela OP.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETOPPRODUTO(String& strOP, String& strPRODUTO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 178
+22/06/2020 08:50:25 - Falha interna da função ReadDBGETOPPRODUTO
+22/06/2020 08:50:25 - System.ArgumentException: A coluna 'opstatus' não pertence à tabela OP.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETOPPRODUTO(String& strOP, String& strPRODUTO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 178
+22/06/2020 08:50:30 - Falha interna da função ReadDBGETOPPRODUTO
+22/06/2020 08:50:30 - System.ArgumentException: A coluna 'opstatus' não pertence à tabela OP.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETOPPRODUTO(String& strOP, String& strPRODUTO, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 178

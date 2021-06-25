@@ -1,0 +1,58 @@
+
+06/01/2020 14:59:08 - Falha interna da função ReadDBGETCOMMSTATUS
+06/01/2020 14:59:08 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETCOMMSTATUS(Int32 intBABELID, Boolean& bolCOMMOK, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 294
+06/01/2020 14:59:08 - Falha interna da função ReadDBGETCOMMSTATUS
+06/01/2020 14:59:08 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETCOMMSTATUS(Int32 intBABELID, Boolean& bolCOMMOK, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 294
+06/01/2020 18:11:23 - Falha interna da função ReadDBGETPARADAS
+06/01/2020 18:11:23 - System.InvalidCastException: O operador '=' não está definido para tipo 'DBNull' e cadeia de caracteres "3".
+   em Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectEqual(Object Left, Object Right, Boolean TextCompare)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE(Int32 intMACHINEID, String strDATAINICIAL, String strDATAFINAL, String strHORAINICIAL, String strHORAFINAL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5196
+06/01/2020 18:12:12 - Falha interna da função ReadDBGETPARADAS
+06/01/2020 18:12:12 - System.InvalidCastException: O operador '=' não está definido para tipo 'DBNull' e cadeia de caracteres "3".
+   em Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectEqual(Object Left, Object Right, Boolean TextCompare)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE(Int32 intMACHINEID, String strDATAINICIAL, String strDATAFINAL, String strHORAINICIAL, String strHORAFINAL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5196
+06/01/2020 21:02:18 - Falha interna da função ReadDBGETDIASUTEIS
+06/01/2020 21:02:18 - System.InvalidCastException: A conversão da cadeia de caracteres 'Saturday' no tipo 'Double' não é válida. ---> System.FormatException: A cadeia de caracteres de entrada não estava em um formato correto.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em MCONTROL_OEE.mod_OEE.ReadDBGETDIASUTEIS(TextBox& tbDIASUTEIS, String strDATAINICIAL, String strDATAFINAL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5671
+06/01/2020 21:05:07 - Falha interna da função ReadDBGETDIASUTEIS
+06/01/2020 21:05:07 - System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value)
+   em MCONTROL_OEE.mod_OEE.ReadDBGETDIASUTEIS(TextBox& tbDIASUTEIS, String strDATAINICIAL, String strDATAFINAL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5666
+06/01/2020 21:05:07 - Falha interna da função ReadDBGETDIASUTEIS
+06/01/2020 21:05:07 - System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value)
+   em MCONTROL_OEE.mod_OEE.ReadDBGETDIASUTEIS(TextBox& tbDIASUTEIS, String strDATAINICIAL, String strDATAFINAL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5667
+06/01/2020 23:24:52 - Falha interna da função ReadDBGETGRUPOS
+06/01/2020 23:24:52 - System.Data.SqlClient.SqlException (0x80131904): Nome de coluna 'exe_MCONTROL_OEE_Maquinas.Descricao' inválido.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   em MCONTROL_OEE.mod_OEE.ReadDBGETMAQVINCULADAS(DataGridViewX& dgvGRUPOS, Int32 intGRUPOID, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 6398
+ClientConnectionId:a58ea6d8-8c8d-4bb6-a2f0-5a50245792b5
+Error Number:207,State:1,Class:16

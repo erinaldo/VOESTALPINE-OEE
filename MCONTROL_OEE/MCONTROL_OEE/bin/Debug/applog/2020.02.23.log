@@ -1,0 +1,4 @@
+
+23/02/2020 07:25:17 - Falha interna da função WriteDBREPORTPRODUTIVIDADE_GRUPO_MENSAL
+23/02/2020 07:25:17 - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE_GRUPO_LIVRE(String strDATAINICIAL, String strHORAINICIAL, String strDATAFINAL, String strHORAFINAL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 9613

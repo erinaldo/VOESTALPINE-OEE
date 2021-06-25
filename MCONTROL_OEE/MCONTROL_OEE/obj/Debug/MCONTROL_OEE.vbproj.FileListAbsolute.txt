@@ -1,0 +1,621 @@
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\MCONTROL_OEE.exe.config
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\MCONTROL_OEE.exe
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\MCONTROL_OEE.pdb
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\MCONTROL_OEE.xml
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.Resources.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.vbproj.GenerateResource.cache
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.exe
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.xml
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.pdb
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\DevComponents.DotNetBar2.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\DevComponents.DotNetBar2.xml
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.vbproj.CopyComplete
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MAQUINAS.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MAQUINAS_DEVICES.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MOTIVOPARADAS.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MOTIVOSPARADAS_ORIENTACAO.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_OPERADORES.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frmESCALA.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_HISTORICOPARADAS.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_EDITARPARADA.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_LOGIN.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_SPLASH.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_DBSEARCH.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_PERFILUSUÁRIOS.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\clsMCONTROL_OEE_img.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\clsMCONTROL_OEE_img.pdb
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\DevComponents.DotNetBar.Schedule.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\DevComponents.DotNetBar.Schedule.xml
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_ESCALA.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_TURNO.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_ESCALA_EXCLUIR.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_ONLINE.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\DevComponents.DotNetBar.Charts.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_CHART_PARETO.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MAIN.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_LOGUSER.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_PRODUTIVIDADE.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MANUTENCAO.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.exe.config
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frmWAIT.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_PARADAS.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\RdlCompile.cache
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\RdlCompile.compiled
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\EnvDTE.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\stdole.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\EnvDTE80.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\VSLangProj.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\VSLangProj80.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.MSXML.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.Build.Framework.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\VSLangProj2.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt-BR\Microsoft.VisualStudio.GraphModel.resources.dll
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_PRODUTIVIDADE.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_MANUTENCAO.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MANUTENCAO_CONFIG.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_APONTAMENTODIARIO.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MAQUINAS_GRUPO.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_APONTAMENTO.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_APONTAMENTODIARIO_GRUPO.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.vbprojAssemblyReference.cache
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_FERIADOS.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_TEMPOCALENDARIO.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_TEMPOCALENDARIO.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_APONTAMENTO_GRUPO.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_PRODUTIVIDADE_ANOFISCAL.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_PRODUTIVIDADE_GRUPO.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_PRODUTIVIDADE_MENSAL.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_ATUALIZARIMEDIATAMENTE.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_DEFINIRPERIODO.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_MANUTENCAO_GRUPO.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_BLOQUEARREGISTROS.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_BLOQUEIO.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_CONTROLEAMARRADO.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_AMARRADO.resources
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\clsMCONTROL_OEE_img.xml
+C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_APONTAMENTO_LIVRE.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\MCONTROL_OEE.exe.config
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\MCONTROL_OEE.exe
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\MCONTROL_OEE.pdb
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\MCONTROL_OEE.xml
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\clsMCONTROL_OEE_img.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\DevComponents.DotNetBar.Charts.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\DevComponents.DotNetBar.Schedule.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\DevComponents.DotNetBar2.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\EnvDTE.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\stdole.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\EnvDTE80.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.Build.Tasks.Core.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\VSLangProj.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\VSLangProj80.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.MSXML.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.Build.Utilities.Core.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.Build.Framework.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\VSLangProj2.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\clsMCONTROL_OEE_img.pdb
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\clsMCONTROL_OEE_img.xml
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\DevComponents.DotNetBar.Schedule.xml
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\DevComponents.DotNetBar2.xml
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Services.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Core.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt-BR\Microsoft.VisualStudio.GraphModel.resources.dll
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.exe.config
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frmESCALA.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frmWAIT.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_APONTAMENTODIARIO.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_APONTAMENTODIARIO_GRUPO.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_APONTAMENTO_LIVRE.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_ATUALIZARIMEDIATAMENTE.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_BLOQUEARREGISTROS.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_BLOQUEIO.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_CHART_PARETO.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_CONTROLEAMARRADO.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_DBSEARCH.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_DEFINIRPERIODO.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_EDITARPARADA.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_ESCALA.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_ESCALA_EXCLUIR.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_FERIADOS.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_HISTORICOPARADAS.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_LOGIN.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_LOGUSER.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MAIN.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MANUTENCAO.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MANUTENCAO_CONFIG.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MAQUINAS.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MAQUINAS_DEVICES.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MAQUINAS_GRUPO.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MOTIVOPARADAS.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MOTIVOSPARADAS_ORIENTACAO.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_ONLINE.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_OPERADORES.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_PERFILUSUÁRIOS.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_PRODUTIVIDADE.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_PRODUTIVIDADE_ANOFISCAL.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_PRODUTIVIDADE_MENSAL.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_AMARRADO.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_APONTAMENTO.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_APONTAMENTO_GRUPO.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_MANUTENCAO.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_MANUTENCAO_GRUPO.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_PARADAS.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_PRODUTIVIDADE.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_PRODUTIVIDADE_GRUPO.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_TEMPOCALENDARIO.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_SPLASH.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_TEMPOCALENDARIO.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_TURNO.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.Resources.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.vbproj.GenerateResource.cache
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\RdlCompile.cache
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\RdlCompile.compiled
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.vbproj.CopyComplete
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.exe
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.xml
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.pdb
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_APONTAMENTO_LIVRE.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_CONFIGONLIE.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MAQUINAS_MASTER.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.vbproj.CoreCompileInputs.cache
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_HABMAQUINAS.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_EDITAROPS.resources
+D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.vbprojAssemblyReference.cache
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\MCONTROL_OEE.exe.config
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\MCONTROL_OEE.exe
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\MCONTROL_OEE.pdb
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\MCONTROL_OEE.xml
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\clsMCONTROL_OEE_img.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\DevComponents.DotNetBar.Charts.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\DevComponents.DotNetBar.Schedule.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\DevComponents.DotNetBar2.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\EnvDTE.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\stdole.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\EnvDTE80.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.Build.Tasks.Core.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\VSLangProj.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\VSLangProj80.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.MSXML.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.Build.Utilities.Core.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.Build.Framework.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\VSLangProj2.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\clsMCONTROL_OEE_img.pdb
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\clsMCONTROL_OEE_img.xml
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\DevComponents.DotNetBar.Schedule.xml
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\DevComponents.DotNetBar2.xml
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Services.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Core.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt-BR\Microsoft.VisualStudio.GraphModel.resources.dll
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.vbproj.AssemblyReference.cache
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.exe.config
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frmESCALA.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frmWAIT.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_APONTAMENTODIARIO.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_APONTAMENTODIARIO_GRUPO.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_APONTAMENTO_LIVRE.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_ATUALIZARIMEDIATAMENTE.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_BLOQUEARREGISTROS.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_BLOQUEIO.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_CHART_PARETO.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_CONFIGONLIE.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_CONTROLEAMARRADO.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_DBSEARCH.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_DEFINIRPERIODO.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_EDITAROPS.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_EDITARPARADA.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_ESCALA.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_ESCALA_EXCLUIR.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_FERIADOS.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_HABMAQUINAS.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_HISTORICOPARADAS.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_LOGIN.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_LOGUSER.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MAIN.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MANUTENCAO.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MANUTENCAO_CONFIG.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MAQUINAS.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MAQUINAS_DEVICES.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MAQUINAS_GRUPO.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MAQUINAS_MASTER.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MOTIVOPARADAS.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MOTIVOSPARADAS_ORIENTACAO.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_ONLINE.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_OPERADORES.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_PERFILUSUÁRIOS.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_PRODUTIVIDADE.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_PRODUTIVIDADE_ANOFISCAL.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_PRODUTIVIDADE_MENSAL.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_AMARRADO.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_APONTAMENTO.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_APONTAMENTO_GRUPO.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_APONTAMENTO_LIVRE.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_MANUTENCAO.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_MANUTENCAO_GRUPO.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_PARADAS.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_PRODUTIVIDADE.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_PRODUTIVIDADE_GRUPO.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_TEMPOCALENDARIO.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_SPLASH.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_TEMPOCALENDARIO.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_TURNO.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.Resources.resources
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.vbproj.GenerateResource.cache
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\RdlCompile.cache
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\RdlCompile.compiled
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.vbproj.CoreCompileInputs.cache
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.vbproj.CopyComplete
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.exe
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.xml
+D:\DEV_VOESTALPINE\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.pdb
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.vbproj.AssemblyReference.cache
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.exe.config
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frmESCALA.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frmWAIT.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_APONTAMENTODIARIO.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_APONTAMENTODIARIO_GRUPO.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_APONTAMENTO_LIVRE.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_ATUALIZARIMEDIATAMENTE.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_BLOQUEARREGISTROS.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_BLOQUEIO.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_CHART_PARETO.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_CONFIGONLIE.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_CONTROLEAMARRADO.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_DBSEARCH.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_DEFINIRPERIODO.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_EDITAROPS.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_EDITARPARADA.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_ESCALA.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_ESCALA_EXCLUIR.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_FERIADOS.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_HABMAQUINAS.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_HISTORICOPARADAS.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_LOGIN.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_LOGUSER.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MAIN.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MANUTENCAO.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MANUTENCAO_CONFIG.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MAQUINAS.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MAQUINAS_DEVICES.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MAQUINAS_GRUPO.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MAQUINAS_MASTER.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MOTIVOPARADAS.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_MOTIVOSPARADAS_ORIENTACAO.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_ONLINE.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_OPERADORES.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_PERFILUSUÁRIOS.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_PRODUTIVIDADE.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_PRODUTIVIDADE_ANOFISCAL.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_PRODUTIVIDADE_MENSAL.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_AMARRADO.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_APONTAMENTO.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_APONTAMENTO_GRUPO.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_APONTAMENTO_LIVRE.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_MANUTENCAO.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_MANUTENCAO_GRUPO.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_PARADAS.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_PRODUTIVIDADE.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_PRODUTIVIDADE_GRUPO.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_TEMPOCALENDARIO.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_SPLASH.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_TEMPOCALENDARIO.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_TURNO.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.Resources.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.vbproj.GenerateResource.cache
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\RdlCompile.cache
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\RdlCompile.compiled
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.vbproj.CoreCompileInputs.cache
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.exe
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.xml
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.pdb
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\MCONTROL_OEE.exe.config
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\MCONTROL_OEE.exe
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\MCONTROL_OEE.pdb
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\MCONTROL_OEE.xml
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\clsMCONTROL_OEE_img.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\DevComponents.DotNetBar.Charts.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\DevComponents.DotNetBar.Schedule.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\DevComponents.DotNetBar2.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\EnvDTE.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\stdole.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\EnvDTE80.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.Build.Tasks.Core.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\VSLangProj.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\VSLangProj80.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.MSXML.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.Build.Utilities.Core.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.Build.Framework.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\VSLangProj2.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\clsMCONTROL_OEE_img.pdb
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\clsMCONTROL_OEE_img.xml
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\DevComponents.DotNetBar.Schedule.xml
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\DevComponents.DotNetBar2.xml
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Services.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Core.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\bin\Debug\pt-BR\Microsoft.VisualStudio.GraphModel.resources.dll
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.vbproj.CopyComplete
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_BABEL.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_BABEL_EDIT.resources
+D:\DEV_VOESTALPINE_NEW\MCONTROL_OEE\MCONTROL_OEE\obj\Debug\MCONTROL_OEE.frm_REPORT_AMARRADOS_SEMTURNO.resources

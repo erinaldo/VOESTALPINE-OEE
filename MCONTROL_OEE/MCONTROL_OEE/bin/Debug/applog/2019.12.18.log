@@ -1,0 +1,69 @@
+
+18/12/2019 09:46:22 - Falha interna da função ReadDBGETPARADAS
+18/12/2019 09:46:22 - System.OverflowException: Valor era muito grande ou muito pequeno para Decimal.
+   em System.Decimal..ctor(Double value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTMANUTENCAO(Int32 intMACHINEID, String strDATAINICIAL, String strDATAFINAL, Int32 intTURNOINICIAL, Int32 intTURNOFINAL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5197
+18/12/2019 16:38:23 - Falha interna da função ReadDBGETTURNOS
+18/12/2019 16:38:23 - System.InvalidCastException: A conversão da cadeia de caracteres '' no tipo 'Date' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(Object Value)
+   em MCONTROL_OEE.mod_OEE.ReadDBGETTURNOHORARIO(Int32 intTURNOID, DateTimeInput& dtimeDATA, String strTIPO, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5692
+18/12/2019 16:41:58 - Falha interna da função ReadDBGETTURNOS
+18/12/2019 16:41:58 - System.InvalidCastException: A conversão da cadeia de caracteres '' no tipo 'Date' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(Object Value)
+   em MCONTROL_OEE.mod_OEE.ReadDBGETTURNOHORARIO(Int32 intTURNOID, DateTimeInput& dtimeDATA, String strTIPO, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5692
+18/12/2019 16:43:13 - Falha interna da função ReadDBGETTURNOS
+18/12/2019 16:43:13 - System.InvalidCastException: A conversão da cadeia de caracteres '' no tipo 'Date' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(Object Value)
+   em MCONTROL_OEE.mod_OEE.ReadDBGETTURNOHORARIO(Int32 intTURNOID, DateTimeInput& dtimeDATA, String strTIPO, String& strERROR)
+18/12/2019 19:40:27 - Falha interna da função ReadDBGETPARADAS
+18/12/2019 19:40:27 - System.FormatException: A cadeia de caracteres de entrada não estava em um formato correto.
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Convert.ToInt32(String value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE(Int32 intMACHINEID, String strDATAINICIAL, String strDATAFINAL, String strHORAINICIAL, String strHORAFINAL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 4992
+18/12/2019 21:38:38 - Falha interna da função WrtiteDBUPDATEMOTIVOSMANUTENCAO
+18/12/2019 21:38:38 - System.Data.SqlClient.SqlException (0x80131904): Sintaxe incorreta próxima a '*'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WrtiteDBUPDATEMOTIVOSMANUTENCAO(DataGridViewX dgvMOTIVOS, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 1673
+ClientConnectionId:2c9b5172-6012-49c5-a65d-5d44b4caca1e
+Error Number:102,State:1,Class:15
+18/12/2019 21:38:58 - Falha interna da função WrtiteDBUPDATEMOTIVOSMANUTENCAO
+18/12/2019 21:38:58 - System.Data.SqlClient.SqlException (0x80131904): Sintaxe incorreta próxima a '*'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WrtiteDBUPDATEMOTIVOSMANUTENCAO(DataGridViewX dgvMOTIVOS, String& strERROR)
+ClientConnectionId:c6012201-d8fd-41e0-a616-13a95aba3de4
+Error Number:102,State:1,Class:15
+18/12/2019 22:00:20 - Falha interna da função ReadDBGETMOTIVOSMANUTENCAO
+18/12/2019 22:00:20 - System.ArgumentOutOfRangeException: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.Collections.ArrayList.get_Item(Int32 index)
+   em System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   em System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.ReadDBGETMOTIVOSMANUTENCAO(DataGridViewX dgvMOTIVOS, DataGridViewX dgvMOTIVOSWAIT, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 1657
+18/12/2019 22:00:39 - Falha interna da função ReadDBGETMOTIVOSMANUTENCAO
+18/12/2019 22:00:39 - System.ArgumentOutOfRangeException: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.Collections.ArrayList.get_Item(Int32 index)
+   em System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   em System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.ReadDBGETMOTIVOSMANUTENCAO(DataGridViewX dgvMOTIVOS, DataGridViewX dgvMOTIVOSWAIT, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 1657
+18/12/2019 22:20:36 - Falha interna da função ReadDBGETPARADAS
+18/12/2019 22:20:36 - System.ArgumentException: A coluna 'motivoid' não pertence à tabela Wait.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTMANUTENCAO(Int32 intMACHINEID, String strDATAINICIAL, String strDATAFINAL, String strHORAINICIAL, String strHORAFINAL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5361

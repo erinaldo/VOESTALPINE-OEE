@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New XML document created with EditiX XML Editor (http://www.editix.com) at Tue Aug 16 09:24:14 BRT 2016 -->
+
+<oVObjStructure>
+
+	<Form Name="frm_MAIN">
+		<Text>Allexo Módulo OEE</Text>
+		<Tag>1</Tag>
+		<Icon>img_escalasauto_16_B.ico</Icon>	
+		<RibControl>ribControl_MAIN</RibControl>
+	
+		<RibTab Name="ribPanel_CONFIG">
+			<Text>Configurações e Ferramentas</Text>
+			<Tag>1.1</Tag>
+			<IconB>img_edit_16_B.ico</IconB>	
+			<RibBar Name= "rb_ACCESS">
+				<Text>Controle de Acesso</Text>
+				<Tag>1.1.1</Tag>
+				<Icon></Icon>
+				<l1Button Name="bt_LOGOUT1">
+					<Text>Logout</Text>
+					<Tag>1.1.1.1</Tag>
+					<Icon>img_lockclosed_16_B.ico</Icon>
+				</l1Button>
+				<l1Button Name="bt_SAIR1">
+					<Text>Sair</Text>
+					<Tag>1.1.1.2</Tag>
+					<Icon>img_exit_16_B.ico</Icon>
+				</l1Button>
+				<l1Button Name="bt_USUARIOS">
+					<Text>Perfil dos Usuários</Text>
+					<Tag>1.1.1.3</Tag>
+					<Icon>img_users_16_B.ico</Icon>
+				</l1Button>
+			</RibBar>
+			<RibBar Name="rb_CADASTROS">
+				<Text>Cadastros Operacionais</Text>
+				<Tag>1.1.2</Tag>
+				<Icon>none</Icon>
+				<l1Button Name="bt_MAQUINAS">
+					<Text>Máquinas</Text>
+					<Tag>1.1.2.1</Tag>
+					<Icon>img_gear_16_B.ico</Icon>
+				</l1Button>
+				<l1Button Name="bt_GRUPO">
+					<Text>Grupo de Máquinas</Text>
+					<Tag>1.1.2.2</Tag>
+					<Icon>img_cunits_16_B.ico</Icon>
+				</l1Button>
+				<l1Button Name="bt_PARADAS">
+					<Text>Motivos Parada Máquina</Text>
+					<Tag>1.1.2.3</Tag>
+					<Icon>img_motivoparadas_16_B.ico</Icon>
+				</l1Button>
+				<l1Button Name="bt_ESCALAS">
+					<Text>Escalas de Trabalho</Text>
+					<Tag>1.1.2.4</Tag>
+					<Icon>img_atauto_16_B.ico</Icon>
+				</l1Button>
+		    <l1Button Name="bt_OPERADORES">
+					<Text>Operadores Máquinas</Text>
+					<Tag>1.1.2.5</Tag>
+					<Icon>img_operador_16_B.ico</Icon>
+				</l1Button>
+        <l1Button Name="bt_CONFIGMANUTENCAO">
+					<Text>Operadores Máquinas</Text>
+					<Tag>1.1.2.6</Tag>
+					<Icon>img_tools_16_B.ico</Icon>
+				</l1Button>
+      </RibBar>	
+			<RibBar Name="rb_FERRAMENTAS">
+				<Text>Ferramentas</Text>
+				<Tag>1.1.3</Tag>
+				<IconB>none</IconB>
+				<l1Button Name="bt_EDITARPARADAS">
+					<Text>Editar Paradas</Text>
+					<Tag>1.1.3.1</Tag>
+					<Icon>img_edit_16_B.ico</Icon>
+				</l1Button>
+			</RibBar>
+		</RibTab>
+		
+		<RibTab Name ="ribPanel_MAIN">
+			<Text>Principal</Text>
+			<Tag>1.2</Tag>
+			<Icon>img_main_16_B.ico</Icon>
+			<RibBar Name="rb_ACCESS2">
+				<Text>Controle de Acesso</Text>
+				<Tag>1.2.1</Tag>
+				<Icon></Icon>
+				<l1Button Name="bt_LOGOUT2">
+					<Text>Logout</Text>
+					<Tag>1.2.1.1</Tag>
+					<Icon>img_lockclosed_16_B.ico</Icon>
+				</l1Button>
+				<l1Button Name="bt_SAIR2">
+					<Text>Sair</Text>
+					<Tag>1.2.1.2</Tag>
+					<Icon>img_exit_16_B.ico</Icon>
+				</l1Button>
+			</RibBar>
+			<RibBar Name="rb_MAQUINAS">
+				<Text>Máquinas</Text>
+				<Tag>1.2.2</Tag>
+				<Icon></Icon>
+        <l1Button Name="bt_ONLINE">
+					<Text>On-line</Text>
+					<Tag>1.2.2.1</Tag>
+					<Icon>img_analog_16_B.ico</Icon>
+				</l1Button>
+			</RibBar>
+		</RibTab>
+		
+    <RibTab Name ="ribPanel_GRAFICOS">
+			<Text>Gráficos</Text>
+			<Tag>1.3</Tag>
+			<Icon>img_bargprah_16_B.ico</Icon>
+			<RibBar Name="rb_GRAFICOS">
+				<Text>Gráficos</Text>
+				<Tag>1.3.1</Tag>
+				<Icon></Icon>
+				<l1Button Name="bt_PARETO">
+					<Text>Pareto de Paradas</Text>
+					<Tag>1.3.1.1</Tag>
+					<Icon>img_bargprah_16_B.ico</Icon>
+				</l1Button>
+			</RibBar>
+		</RibTab>
+		
+		<RibTab Name ="ribPanel_REPORT">
+			<Text>Relatórios</Text>
+			<Tag>1.4</Tag>
+			<IconB>img_report_16_B.ico</IconB>
+			<RibBar Name="rb_REPORT">
+				<Text>Relatórios</Text>
+				<Tag>1.4.1</Tag>
+				<Icon>none</Icon>
+				<l1Button Name="bt_HISTORICOPARADAS">
+					<Text>Histórico de Paradas</Text>
+					<Tag>1.4.1.1</Tag>
+					<Icon>img_tabela_16_B.ico</Icon>
+				</l1Button>
+				<l1Button Name="bt_OEE">
+					<Text>Relatório de Produtividade</Text>
+					<Tag>1.4.1.2</Tag>
+					<Icon>img_chart_16_B.ico</Icon>
+				</l1Button>
+				<l1Button Name="bt_APONTAMENTO">
+					<Text>Apontamento de Produção</Text>
+					<Tag>1.4.1.2</Tag>
+					<Icon>img_edit_16_B.ico</Icon>
+				</l1Button>
+				<l1Button Name="bt_MANUTENCAO">
+					<Text>Manutenção</Text>
+					<Tag>1.4.1.3</Tag>
+					<Icon>img_tools_16_B.ico</Icon>
+				</l1Button>
+				<l1Button Name="bt_LOG">
+					<Text>Log de Usuários</Text>
+					<Tag>1.4.1.4</Tag>
+					<Icon>img_search_16_B.ico</Icon>
+				</l1Button>
+			</RibBar>
+		</RibTab>
+	</Form>
+	
+</oVObjStructure>

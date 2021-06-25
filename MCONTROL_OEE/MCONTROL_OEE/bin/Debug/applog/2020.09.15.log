@@ -1,0 +1,21 @@
+
+15/09/2020 11:54:04 - Falha interna da função WriteDBREPORTPRODUTIVIDADE_GRUPO_DIARIO
+15/09/2020 11:54:04 - System.IndexOutOfRangeException: Não há linha na posição 4.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE_GRUPO_DIARIO(String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 8709
+15/09/2020 11:56:20 - Falha interna da função WriteDBREPORTPRODUTIVIDADE_GRUPO_DIARIO
+15/09/2020 11:56:20 - System.IndexOutOfRangeException: Não há linha na posição 4.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE_GRUPO_DIARIO(String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 8709
+15/09/2020 11:58:04 - Falha interna da função WriteDBREPORTPRODUTIVIDADE_GRUPO_DIARIO
+15/09/2020 11:58:04 - System.IndexOutOfRangeException: Não há linha na posição 4.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE_GRUPO_DIARIO(String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 8709
+15/09/2020 11:58:46 - Falha interna da função WriteDBREPORTPRODUTIVIDADE_GRUPO_DIARIO
+15/09/2020 11:58:46 - System.IndexOutOfRangeException: Não há linha na posição 4.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE_GRUPO_DIARIO(String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 8709

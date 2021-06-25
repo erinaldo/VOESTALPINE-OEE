@@ -1,0 +1,16 @@
+
+15/07/2020 14:14:50 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+15/07/2020 14:14:51 - System.InvalidCastException: Objeto não pode ser convertido de DBNull em outros tipos.
+   em System.DBNull.System.IConvertible.ToDateTime(IFormatProvider provider)
+   em System.Convert.ToDateTime(Object value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_PARCIAL(Int32 intUSERID, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 11495
+15/07/2020 14:15:10 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+15/07/2020 14:15:10 - System.InvalidCastException: Objeto não pode ser convertido de DBNull em outros tipos.
+   em System.DBNull.System.IConvertible.ToDateTime(IFormatProvider provider)
+   em System.Convert.ToDateTime(Object value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_PARCIAL(Int32 intUSERID, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 11495
+15/07/2020 14:16:08 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+15/07/2020 14:16:08 - System.InvalidCastException: Objeto não pode ser convertido de DBNull em outros tipos.
+   em System.DBNull.System.IConvertible.ToDateTime(IFormatProvider provider)
+   em System.Convert.ToDateTime(Object value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_PARCIAL(Int32 intUSERID, String& strERROR) na D:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 11495

@@ -1,0 +1,10 @@
+
+08/01/2020 23:38:34 - Falha interna da função WriteDBREPORTAPONTAMENTO
+08/01/2020 23:38:34 - System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO(Int32 intMACHINEID, Int32 intUSERID, String strDATAINICIAL, String strDATAFINAL, Int32 intDIASUTEIS, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5766
+08/01/2020 23:41:38 - Falha interna da função WriteDBREPORTAPONTAMENTO
+08/01/2020 23:41:38 - System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO(Int32 intMACHINEID, Int32 intUSERID, String strDATAINICIAL, String strDATAFINAL, Int32 intDIASUTEIS, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5766
+08/01/2020 23:45:08 - Falha interna da função WriteDBREPORTAPONTAMENTO
+08/01/2020 23:45:08 - System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO(Int32 intMACHINEID, Int32 intUSERID, String strDATAINICIAL, String strDATAFINAL, Int32 intDIASUTEIS, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5774

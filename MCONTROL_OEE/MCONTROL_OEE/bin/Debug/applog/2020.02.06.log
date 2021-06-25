@@ -1,0 +1,25 @@
+
+06/02/2020 15:58:28 - Falha interna da função ReadDBGETCOMMSTATUS
+06/02/2020 15:58:28 - System.InvalidCastException: O operador '=' não está definido para tipo 'DBNull' e tipo 'Boolean'.
+   em Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectEqual(Object Left, Object Right, Boolean TextCompare)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETCOMMSTATUS(Int32 intBABELID, Boolean& bolCOMMOK, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 328
+06/02/2020 15:58:28 - Falha interna da função ReadDBGETCOMMSTATUS
+06/02/2020 15:58:28 - System.InvalidCastException: O operador '=' não está definido para tipo 'DBNull' e tipo 'Boolean'.
+   em Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectEqual(Object Left, Object Right, Boolean TextCompare)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETCOMMSTATUS(Int32 intBABELID, Boolean& bolCOMMOK, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 328
+06/02/2020 15:58:28 - Falha interna da função ReadDBGETCOMMSTATUS
+06/02/2020 15:58:28 - System.InvalidCastException: O operador '=' não está definido para tipo 'DBNull' e tipo 'Boolean'.
+   em Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectEqual(Object Left, Object Right, Boolean TextCompare)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETCOMMSTATUS(Int32 intBABELID, Boolean& bolCOMMOK, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 328
+06/02/2020 16:03:50 - Falha interna da função ReadDBGETCOMMSTATUS
+06/02/2020 16:03:50 - System.InvalidCastException: O operador '=' não está definido para tipo 'DBNull' e tipo 'Boolean'.
+   em Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectEqual(Object Left, Object Right, Boolean TextCompare)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETCOMMSTATUS(Int32 intBABELID, Boolean& bolCOMMOK, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 328
+06/02/2020 16:03:50 - Falha interna da função ReadDBGETCOMMSTATUS
+06/02/2020 16:03:50 - System.InvalidCastException: O operador '=' não está definido para tipo 'DBNull' e tipo 'Boolean'.
+   em Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectEqual(Object Left, Object Right, Boolean TextCompare)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETCOMMSTATUS(Int32 intBABELID, Boolean& bolCOMMOK, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 328
+06/02/2020 16:03:51 - Falha interna da função ReadDBGETCOMMSTATUS
+06/02/2020 16:03:51 - System.InvalidCastException: O operador '=' não está definido para tipo 'DBNull' e tipo 'Boolean'.
+   em Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectEqual(Object Left, Object Right, Boolean TextCompare)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETCOMMSTATUS(Int32 intBABELID, Boolean& bolCOMMOK, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 328

@@ -1,0 +1,33 @@
+
+11/03/2020 01:22:40 - Falha interna da função <b>clsoVDBASQL.WriteDBBLOQUEARTEMPOCALENDARIO!</b>
+11/03/2020 01:22:40 - System.Data.SqlClient.SqlException (0x80131904): Nome de coluna 'data' inválido.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBBLOQUEARTEMPOCALENDARIO(Int32 intMAQUINAID, String strDATA, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 11137
+ClientConnectionId:90ce60ea-b241-41f7-ba20-a4e6c148f87f
+Error Number:207,State:1,Class:16
+11/03/2020 13:01:02 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+11/03/2020 13:01:02 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAMARRADO(Int32 intMAQUINAID, String strDATAINICIAL, String strHORAINICIAL, String strDATAFINAL, String strHORAFINAL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 10508
+11/03/2020 13:05:44 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+11/03/2020 13:05:44 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAMARRADO(Int32 intMAQUINAID, String strDATAINICIAL, String strHORAINICIAL, String strDATAFINAL, String strHORAFINAL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 10508
+11/03/2020 13:06:00 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+11/03/2020 13:06:00 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAMARRADO(Int32 intMAQUINAID, String strDATAINICIAL, String strHORAINICIAL, String strDATAFINAL, String strHORAFINAL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 10508
+11/03/2020 13:06:35 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+11/03/2020 13:06:35 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAMARRADO(Int32 intMAQUINAID, String strDATAINICIAL, String strHORAINICIAL, String strDATAFINAL, String strHORAFINAL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 10508

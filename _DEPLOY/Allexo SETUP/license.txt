@@ -1,0 +1,47 @@
+Contrato de Licença de Uso de Software
+
+Das Partes: são partes neste CONTRATO DE LICENÇA DE USO DE SOFTWARE, na qualidade de LICENCIANTE, a empresa Allexo Tecnologia Ltda. CNPJ: 26.768.529/0001-43, com sede à Rua Jaime Telles, 62, CEP 90.601310-000, na cidade de Porto Alegre – RS, e na qualidade de LICENCIADA, o adquirente da presente LICENÇA DE USO DE SOFTWARE devidamente identificado na documentação comercial (proposta comercial ou pedido ou nota fiscal) que acompanha a aquisição desta LICENÇA DE USO DE SOFTWARE.
+
+Esta LICENÇA DE USO deve ser lida com atenção antes do SOFTWARE ser utilizado. A utilização do SOFTWARE, mesmo que parcial ou a título de teste, indica que a LICENCIADA está ciente dos termos desta LICENÇA DE USO DE SOFTWARE, concordando com os mesmos. Em caso de discordância dos termos aqui apresentados, a utilização do SOFTWARE deve ser imediatamente interrompida. Esta LICENÇA DE USO DE SOFTWARE se encontra também publicada dentro do próprio SOFTWARE.
+O software objeto desta LICENÇA DE USO, nesta LICENÇA DE USO, pode ser tratado também pela denominação de programa de computador, programa, software, sistema, plataforma ou site.
+
+Concessão da LICENÇA DE USO: A LICENCIANTE, proprietária dos direitos do software objeto deste contrato, neste ato e pela melhor forma de direito, outorga a LICENCIADA uma LICENÇA DE USO, em caráter não exclusivo e não transferível, para utilização na forma de código objeto, do programa de computador, objeto desta LICENÇA DE USO, disponibilizado a LICENCIADA para que o utilize, respeitando os termos constantes desta LICENÇA DE USO.
+
+Adesão ao Contrato: A aceitação deste CONTRATO se concretiza na ocasião da utilização, mesmo que parcial ou a título de teste do SOFTWARE, ou na aquisição desta LICENÇA DE USO DE SOFTWARE, feita eletronicamente através da internet ou através de pedido direto à LICENCIANTE ou a uma de suas representantes.
+
+Normas e condições gerais: O SOFTWARE é disponibilizado pela LICENCIANTE em três versões (Local Server, Advanced Server e IoT), conforme opção de compra realizada, e para todas as versões em dois módulos distintos: ominServer® e omniViewer®. Salvo em contrário conforme explicitado em proposta comercial e nota fiscal fatura, o LICENCIAMENTO aqui apresentado permite à LICENCIADA e instalação do módulo omniServer® em computador único e o módulo omniViewer® de instalação livre em quantas máquinas sejam desejadas pelo LICENCIADA.
+Nas versões Advanced Server e IoT, para que a LICENCIADA possa utilizar o SOFTWARE, se faz necessário que o mesmo esteja devidamente instalado em máquina com acesso à internet visando estabelecer conexão ao PROGRAMA servidor da LICENCIANTE.
+
+A LICENCIADA é integralmente responsável pelas informações inseridas no PROGRAMA, pelo cadastramento, permissões, senhas e modo de utilização de seus usuários. A LICENCIANTE ou suas REPRESENTANTES, em hipótese alguma serão responsáveis pelo conteúdo (informações, senhas, backups, cópias de infomações, etc) de qualquer SOFTWARE, não sendo portanto, estas informações revisadas em momento algum. A responsabilidade pelas informações de cada SOFTWARE é sempre de cada LICENCIADA.
+
+A LICENCIANTE, pode a qualquer tempo, suspender ou retirar qualquer SOFTWARE que esteja desrespeitando as regras de conteúdo aqui estabelecidas ou as normas legais em vigor, sem qualquer devolução de quantias pagas pela LICENCIADA.
+Sendo desrespeitada qualquer regra aqui estabelecida ou sendo verificada ilegalidade, a LICENCIANTE se reserva do direito de excluir o SOFTWARE além de suspender o direito da mesma LICENCIADA de adquirir novo SOFTWARE da LICENCIANTE.
+Em caso de não pagamento dos valores referentes à anuidade e demais taxas devidas, fica a LICENCIADA sujeita a interrupção temporária ou o cancelamento definitivo dos serviços prestados pela LICENCIANTE.
+
+É expressamente proibido: 
+- A utilização do SOFTWARE fora das condições estabelecidas nesta LICENÇA DE USO.
+- Traduzir, fazer engenharia reversa, descompilar, copiar imagens, códigos ou quaisquer partes do SOFTWARE para utilização fora dele. 
+- Alugar, arrendar, atribuir ou transferir o produto licenciado. 
+- Modificar o produto ou mesclar todas ou qualquer de suas partes com outro programa. 
+- Remover ou alterar qualquer aviso de copyright, marca registrada, ou outro aviso de direitos de propriedade colocados no SOFTWARE ou em parte do mesmo.
+Em nenhuma hipótese a LICENCIADA terá acesso ao código fonte do SOFTWARE ora licenciado, por este se tratar de propriedade intelectual da LICENCIANTE.
+
+Suporte Técnico: O Suporte Técnico fornecido a LICENCIADA limita-se à esclarecimentos sobre o funcionamento do SOFTWARE e sua operação, assim sendo, pressupõe-se o mínimo de conhecimento do uso do computador por parte do(s) usuário(s), o que inclui o uso do computador e suas funções, o uso do sistema operacional sob o qual o sistema irá trabalhar, e do assunto que o SOFTWARE se propõe a resolver. Pressupõe-se também uma configuração adequada do computador no que se refere a utilização do SOFTWARE adquirido e o bom estado de funcionamento deste computador. O Suporte Técnico limita-se ao atendimento aos clientes, não estando incluídos neste serviço ligações telefônicas, que correm sempre por conta da LICENCIADA. O Suporte Técnico da LICENCIANTE garante atendimento gratuito a LICENCIADA que possui seu SOFTWARE hospedado nos servidores da LICENCIANTE, resumidamente, nos seguintes itens:
+
+- Suporte técnico via telefone em horário comercial para utilização dos recursos constantes no SOFTWARE;
+- Manutenção do servidor de internet que hospeda o SOFTWARE; 
+- Manutenção do link de internet do servidor de hospedagem do SOFTWARE.
+
+O Suporte técnico fornecido pela LICENCIANTE não abrange a conexão com a internet, rede interna e computadores da LICENCIADA.
+Todas as modificações, melhorias e correções efetuadas no SOFTWARE, mesmo que informadas, solicitadas, e eventualmente pagas pela LICENCIADA, ficam incorporadas ao SOFTWARE e sujeitas aos termos desta LICENÇA DE USO DE SOFTWARE, podendo inclusive serem disponibilizadas pela LICENCIANTE a outras LICENCIADAS que utilizem o mesmo modelo de SOFTWARE, assim como a LICENCIADA pode eventualmente receber melhorias de funcionamento, correções e novos recursos no SOFTWARE que utiliza.
+
+A LICENCIADA desde já concorda com modificações, implementação de novos recursos, ou ferramentas, ou melhorias ou correções no modelo de SOFTWARE que utiliza, ficando a critério da LICENCIANTE o gerenciamento e aprovação destas modificações no SOFTWARE. A instalação das atualizações é feita pela LICENCIANTE de forma automática no SOFTWARE.
+Prazo de Vigência: O prazo para utilização do SOFTWARE é definido por tempo indeterminado, ou seja, o LICENCIADA pode utilizar o SOFTWARE pelo tempo que desejar, devendo durante o tempo que estiver utilizando o SOFTWARE se manter adimplente com o pagamento anual de sua hospedagem. 
+
+Condições de Rescisão: A LICENCIADA pode rescindir este contrato a qualquer momento, desde que informe expressamente a LICENCIANTE com antecedência de 30 dias. Em nenhuma hipótese serão devolvidos quaisquer valores pagos. A LICENCIANTE pode rescindir este contrato no caso do não cumprimento pela LICENCIADA de suas obrigações contratuais.
+
+Condições Diversas: Fica estabelecido também que a LICENCIANTE empregará sempre seus melhores esforços na manutenção e na evolução tecnológica do SOFTWARE e do servidor que o hospeda. No caso de interrupção do funcionamento do SOFTWARE, a LICENCIANTE se compromete a repor o igual período da interrupção ao término do prazo estipulado. Em hipótese alguma a LICENCIANTE será responsável por lucros cessantes, indenizações de qualquer espécie, danos comerciais, especiais, acidentais, consequenciais ou outros diretos ou indiretos.
+A utilização do SOFTWARE fica sujeita também as normas estabelecidas no contrato de hospedagem da LICENCIANTE, de acordo com as limitações oferecidas em cada plano de hospedagem de SOFTWARE.
+A LICENCIANTE se reserva do direito de modificar este contrato de acordo com sua necessidade, com intuito de preservar sua propriedade intelectual e o bom funcionamento de todo o sistema. 
+
+Foro de eleição: Fica eleito, desde já, com exclusão de qualquer outro, por mais privilegiado que seja, o foro Central da Comarca da Cidade de Porto Alegre-RS, para dirimir toda e qualquer dúvida ou pendência oriunda deste contrato.

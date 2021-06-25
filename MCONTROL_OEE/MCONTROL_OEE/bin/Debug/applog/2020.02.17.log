@@ -1,0 +1,23 @@
+
+17/02/2020 16:35:56 - Falha interna da função ReadDBGETTURNOMAQUINA
+17/02/2020 16:35:56 - System.ArgumentException: A coluna '' não pertence à tabela Periodo.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.mod_OEE.ReadDBGETPERIODOTRABALHO(Int32 intMACHINEID, ComboBox& cbTURNOINICIALID, ComboBox& cbTURNOFINALID, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 3188
+17/02/2020 16:36:06 - Falha interna da função ReadDBGETTURNOMAQUINA
+17/02/2020 16:36:06 - System.ArgumentException: A coluna '' não pertence à tabela Periodo.
+   em System.Data.DataRow.GetDataColumn(String columnName)
+   em System.Data.DataRow.get_Item(String columnName)
+   em MCONTROL_OEE.mod_OEE.ReadDBGETPERIODOTRABALHO(Int32 intMACHINEID, ComboBox& cbTURNOINICIALID, ComboBox& cbTURNOFINALID, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 3188
+17/02/2020 17:48:47 - Falha interna da função WriteDBREPORTPRODUTIVIDADE
+17/02/2020 17:48:47 - System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value, IFormatProvider provider)
+   em System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   em System.Convert.ToDateTime(Object value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE_GRUPO(Int32 intANOFISCAL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5937
+17/02/2020 17:55:20 - Falha interna da função WriteDBREPORTPRODUTIVIDADE
+17/02/2020 17:55:20 - System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTPRODUTIVIDADE_GRUPO(Int32 intANOFISCAL, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5948

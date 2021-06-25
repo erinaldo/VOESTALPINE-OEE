@@ -1,0 +1,36 @@
+
+09/01/2020 14:54:51 - Falha interna da função ReadDBGETDIASUTEIS
+09/01/2020 14:54:51 - System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value)
+   em MCONTROL_OEE.mod_OEE.ReadDBGETDIASUTEIS(TextBox& tbDIASUTEIS, Int32 intMES, String strANO, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5827
+09/01/2020 14:54:59 - Falha interna da função ReadDBGETDIASUTEIS
+09/01/2020 14:54:59 - System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value)
+   em MCONTROL_OEE.mod_OEE.ReadDBGETDIASUTEIS(TextBox& tbDIASUTEIS, Int32 intMES, String strANO, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5827
+09/01/2020 15:30:49 - Falha interna da função WriteDBREPORTAPONTAMENTO
+09/01/2020 15:30:49 - System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO(Int32 intMACHINEID, Int32 intUSERID, String strDATAHOJE, Int32 intMES, Int32 intANO, Int32 intDIASUTEIS, Int32 intDIASUTEISHOJE, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5719
+09/01/2020 17:10:38 - Falha interna da função WriteDBREPORTAPONTAMENTO
+09/01/2020 17:10:38 - System.Data.SqlClient.SqlException (0x80131904): Sintaxe incorreta próxima à palavra-chave 'INTO'.
+Aspas não fechadas depois da cadeia de caracteres 'Dia, 327.880, 1836197, 327.880, 1836197)'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO(Int32 intMACHINEID, Int32 intUSERID, String strDATAHOJE, Int32 intMES, Int32 intANO, Int32 intDIASUTEIS, Int32 intDIASUTEISHOJE, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5834
+ClientConnectionId:ac4e5f05-50ac-4dba-8de5-cb58425b74a4
+Error Number:156,State:1,Class:15
+09/01/2020 22:31:48 - Falha interna da função WriteDBREPORTAPONTAMENTO
+09/01/2020 22:31:48 - System.ArgumentOutOfRangeException: O valor adicionado ou subtraído resulta em um DateTime não representável.
+Nome do parâmetro: value
+   em System.DateTime.AddTicks(Int64 value)
+   em System.DateTime.Add(Double value, Int32 scale)
+   em Microsoft.VisualBasic.DateAndTime.DateAdd(DateInterval Interval, Double Number, DateTime DateValue)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO(Int32 intMACHINEID, Int32 intUSERID, String strDATAHOJE, Int32 intMES, Int32 intANO, Int32 intDIASUTEIS, Int32 intDIASUTEISHOJE, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 5727

@@ -1,0 +1,6 @@
+
+24/02/2020 08:40:14 - Falha interna da função ReadDBGETDIASUTEIS
+24/02/2020 08:40:14 - System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   em System.Convert.ToDateTime(String value)
+   em MCONTROL_OEE.mod_OEE.ReadDBGETDIASUTEIS(TextBox& tbDIASUTEIS, Int32 intMES, String strANO, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 8684

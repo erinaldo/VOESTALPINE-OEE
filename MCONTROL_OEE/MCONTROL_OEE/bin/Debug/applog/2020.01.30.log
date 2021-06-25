@@ -1,0 +1,15 @@
+
+30/01/2020 00:10:49 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+30/01/2020 00:10:49 - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_GRUPO(Int32 intUSERID, String strDATAHOJE, Int32 intMES, Int32 intANO, Int32 intDIASUTEIS, Int32 intDIASUTEISHOJE, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 7650
+30/01/2020 00:16:07 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+30/01/2020 00:16:07 - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_GRUPO(Int32 intUSERID, String strDATAHOJE, Int32 intMES, Int32 intANO, Int32 intDIASUTEIS, Int32 intDIASUTEISHOJE, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 7650
+30/01/2020 00:24:14 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+30/01/2020 00:24:14 - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_GRUPO(Int32 intUSERID, String strDATAHOJE, Int32 intMES, Int32 intANO, Int32 intDIASUTEIS, Int32 intDIASUTEISHOJE, String& strERROR)
+30/01/2020 00:26:11 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+30/01/2020 00:26:11 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_GRUPO(Int32 intUSERID, String strDATAHOJE, Int32 intMES, Int32 intANO, Int32 intDIASUTEIS, Int32 intDIASUTEISHOJE, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 7551

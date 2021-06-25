@@ -1,0 +1,1279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AC6F1D3F-3EEF-4E9E-97BD-E84555264FCC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>MCONTROL_OEE.My.MyApplication</StartupObject>
+    <RootNamespace>MCONTROL_OEE</RootNamespace>
+    <AssemblyName>MCONTROL_OEE</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MCONTROL_OEE.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MCONTROL_OEE.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>img_gear_24_B.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="clsMCONTROL_OEE_img">
+      <HintPath>..\clsMCONTROL_OEE_img\bin\Debug\clsMCONTROL_OEE_img.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Charts, Version=14.1.0.35, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.Schedule, Version=14.1.0.35, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar.Schedule.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=14.1.0.35, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsAMARRADOS_SEMTURNO.vb" />
+    <Compile Include="frm_APONTAMENTO_LIVRE.Designer.vb">
+      <DependentUpon>frm_APONTAMENTO_LIVRE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_APONTAMENTO_LIVRE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ATUALIZARIMEDIATAMENTE.Designer.vb">
+      <DependentUpon>frm_ATUALIZARIMEDIATAMENTE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ATUALIZARIMEDIATAMENTE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmESCALA.designer.vb">
+      <DependentUpon>frmESCALA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmESCALA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWAIT.designer.vb">
+      <DependentUpon>frmWAIT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWAIT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_APONTAMENTODIARIO.Designer.vb">
+      <DependentUpon>frm_APONTAMENTODIARIO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_APONTAMENTODIARIO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_APONTAMENTODIARIO_GRUPO.Designer.vb">
+      <DependentUpon>frm_APONTAMENTODIARIO_GRUPO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_APONTAMENTODIARIO_GRUPO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_BABEL.Designer.vb">
+      <DependentUpon>frm_BABEL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_BABEL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_BABEL_EDIT.Designer.vb">
+      <DependentUpon>frm_BABEL_EDIT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_BABEL_EDIT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_BLOQUEARREGISTROS.Designer.vb">
+      <DependentUpon>frm_BLOQUEARREGISTROS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_BLOQUEARREGISTROS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_BLOQUEIO.Designer.vb">
+      <DependentUpon>frm_BLOQUEIO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_BLOQUEIO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_CHART_PARETO.Designer.vb">
+      <DependentUpon>frm_CHART_PARETO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_CHART_PARETO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_CONFIGONLIE.Designer.vb">
+      <DependentUpon>frm_CONFIGONLIE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_CONFIGONLIE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_CONTROLEAMARRADO.Designer.vb">
+      <DependentUpon>frm_CONTROLEAMARRADO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_CONTROLEAMARRADO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DBSEARCH.designer.vb">
+      <DependentUpon>frm_DBSEARCH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DBSEARCH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DEFINIRPERIODO.Designer.vb">
+      <DependentUpon>frm_DEFINIRPERIODO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DEFINIRPERIODO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_EDITAROPS.Designer.vb">
+      <DependentUpon>frm_EDITAROPS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_EDITAROPS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_EDITARPARADA.Designer.vb">
+      <DependentUpon>frm_EDITARPARADA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_EDITARPARADA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ESCALA.Designer.vb">
+      <DependentUpon>frm_ESCALA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ESCALA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ESCALA_EXCLUIR.Designer.vb">
+      <DependentUpon>frm_ESCALA_EXCLUIR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ESCALA_EXCLUIR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_FERIADOS.Designer.vb">
+      <DependentUpon>frm_FERIADOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_FERIADOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_HABMAQUINAS.Designer.vb">
+      <DependentUpon>frm_HABMAQUINAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_HABMAQUINAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_HISTORICOPARADAS.Designer.vb">
+      <DependentUpon>frm_HISTORICOPARADAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_HISTORICOPARADAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_LOGIN.designer.vb">
+      <DependentUpon>frm_LOGIN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_LOGIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_LOGUSER.designer.vb">
+      <DependentUpon>frm_LOGUSER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_LOGUSER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MAIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MAIN.Designer.vb">
+      <DependentUpon>frm_MAIN.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MANUTENCAO.Designer.vb">
+      <DependentUpon>frm_MANUTENCAO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MANUTENCAO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MANUTENCAO_CONFIG.Designer.vb">
+      <DependentUpon>frm_MANUTENCAO_CONFIG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MANUTENCAO_CONFIG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MAQUINAS.Designer.vb">
+      <DependentUpon>frm_MAQUINAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MAQUINAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MAQUINAS_DEVICES.Designer.vb">
+      <DependentUpon>frm_MAQUINAS_DEVICES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MAQUINAS_DEVICES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MAQUINAS_GRUPO.Designer.vb">
+      <DependentUpon>frm_MAQUINAS_GRUPO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MAQUINAS_GRUPO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MAQUINAS_MASTER.Designer.vb">
+      <DependentUpon>frm_MAQUINAS_MASTER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MAQUINAS_MASTER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MOTIVOPARADAS.Designer.vb">
+      <DependentUpon>frm_MOTIVOPARADAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MOTIVOPARADAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MOTIVOSPARADAS_ORIENTACAO.Designer.vb">
+      <DependentUpon>frm_MOTIVOSPARADAS_ORIENTACAO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MOTIVOSPARADAS_ORIENTACAO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ONLINE.Designer.vb">
+      <DependentUpon>frm_ONLINE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ONLINE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_OPERADORES.Designer.vb">
+      <DependentUpon>frm_OPERADORES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_OPERADORES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PERFILUSUÁRIOS.Designer.vb">
+      <DependentUpon>frm_PERFILUSUÁRIOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PERFILUSUÁRIOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PRODUTIVIDADE.Designer.vb">
+      <DependentUpon>frm_PRODUTIVIDADE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PRODUTIVIDADE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PRODUTIVIDADE_ANOFISCAL.Designer.vb">
+      <DependentUpon>frm_PRODUTIVIDADE_ANOFISCAL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PRODUTIVIDADE_ANOFISCAL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PRODUTIVIDADE_MENSAL.Designer.vb">
+      <DependentUpon>frm_PRODUTIVIDADE_MENSAL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PRODUTIVIDADE_MENSAL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_REPORT_AMARRADO.Designer.vb">
+      <DependentUpon>frm_REPORT_AMARRADO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_REPORT_AMARRADO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_REPORT_AMARRADOS_SEMTURNO.Designer.vb">
+      <DependentUpon>frm_REPORT_AMARRADOS_SEMTURNO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_REPORT_AMARRADOS_SEMTURNO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_REPORT_APONTAMENTO.Designer.vb">
+      <DependentUpon>frm_REPORT_APONTAMENTO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_REPORT_APONTAMENTO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_REPORT_APONTAMENTO_GRUPO.Designer.vb">
+      <DependentUpon>frm_REPORT_APONTAMENTO_GRUPO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_REPORT_APONTAMENTO_GRUPO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_REPORT_APONTAMENTO_LIVRE.Designer.vb">
+      <DependentUpon>frm_REPORT_APONTAMENTO_LIVRE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_REPORT_APONTAMENTO_LIVRE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_REPORT_MANUTENCAO.Designer.vb">
+      <DependentUpon>frm_REPORT_MANUTENCAO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_REPORT_MANUTENCAO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_REPORT_MANUTENCAO_GRUPO.Designer.vb">
+      <DependentUpon>frm_REPORT_MANUTENCAO_GRUPO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_REPORT_MANUTENCAO_GRUPO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_REPORT_PARADAS.Designer.vb">
+      <DependentUpon>frm_REPORT_PARADAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_REPORT_PARADAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_REPORT_PRODUTIVIDADE.Designer.vb">
+      <DependentUpon>frm_REPORT_PRODUTIVIDADE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_REPORT_PRODUTIVIDADE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_REPORT_PRODUTIVIDADE_GRUPO.Designer.vb">
+      <DependentUpon>frm_REPORT_PRODUTIVIDADE_GRUPO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_REPORT_PRODUTIVIDADE_GRUPO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_REPORT_TEMPOCALENDARIO.Designer.vb">
+      <DependentUpon>frm_REPORT_TEMPOCALENDARIO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_REPORT_TEMPOCALENDARIO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SPLASH.designer.vb">
+      <DependentUpon>frm_SPLASH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_SPLASH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_TEMPOCALENDARIO.Designer.vb">
+      <DependentUpon>frm_TEMPOCALENDARIO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_TEMPOCALENDARIO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_TURNO.Designer.vb">
+      <DependentUpon>frm_TURNO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_TURNO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mod_OEE.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="oViewerDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet10.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet12.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet13.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet14.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet15.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet16.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet17.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet18.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet19.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet20.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet21.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet22.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet23.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet24.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet24.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet25.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet25.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet26.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet26.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet27.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet27.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet28.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet28.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet29.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet29.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet30.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet30.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet31.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet31.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet32.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet32.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet33.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet33.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet34.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet34.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet35.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet35.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet36.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet36.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet37.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet37.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet38.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet38.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="oViewerDataSet9.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>oViewerDataSet9.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmESCALA.resx">
+      <DependentUpon>frmESCALA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWAIT.resx">
+      <DependentUpon>frmWAIT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_APONTAMENTODIARIO.resx">
+      <DependentUpon>frm_APONTAMENTODIARIO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_APONTAMENTODIARIO_GRUPO.resx">
+      <DependentUpon>frm_APONTAMENTODIARIO_GRUPO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_APONTAMENTO_LIVRE.resx">
+      <DependentUpon>frm_APONTAMENTO_LIVRE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ATUALIZARIMEDIATAMENTE.resx">
+      <DependentUpon>frm_ATUALIZARIMEDIATAMENTE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_BABEL.resx">
+      <DependentUpon>frm_BABEL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_BABEL_EDIT.resx">
+      <DependentUpon>frm_BABEL_EDIT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_BLOQUEARREGISTROS.resx">
+      <DependentUpon>frm_BLOQUEARREGISTROS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_BLOQUEIO.resx">
+      <DependentUpon>frm_BLOQUEIO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_CHART_PARETO.resx">
+      <DependentUpon>frm_CHART_PARETO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_CONFIGONLIE.resx">
+      <DependentUpon>frm_CONFIGONLIE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_CONTROLEAMARRADO.resx">
+      <DependentUpon>frm_CONTROLEAMARRADO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DBSEARCH.resx">
+      <DependentUpon>frm_DBSEARCH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DEFINIRPERIODO.resx">
+      <DependentUpon>frm_DEFINIRPERIODO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_EDITAROPS.resx">
+      <DependentUpon>frm_EDITAROPS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_EDITARPARADA.resx">
+      <DependentUpon>frm_EDITARPARADA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ESCALA.resx">
+      <DependentUpon>frm_ESCALA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ESCALA_EXCLUIR.resx">
+      <DependentUpon>frm_ESCALA_EXCLUIR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_FERIADOS.resx">
+      <DependentUpon>frm_FERIADOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_HABMAQUINAS.resx">
+      <DependentUpon>frm_HABMAQUINAS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_HISTORICOPARADAS.resx">
+      <DependentUpon>frm_HISTORICOPARADAS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_LOGIN.resx">
+      <DependentUpon>frm_LOGIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_LOGUSER.resx">
+      <DependentUpon>frm_LOGUSER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MAIN.resx">
+      <DependentUpon>frm_MAIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MANUTENCAO.resx">
+      <DependentUpon>frm_MANUTENCAO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MANUTENCAO_CONFIG.resx">
+      <DependentUpon>frm_MANUTENCAO_CONFIG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MAQUINAS.resx">
+      <DependentUpon>frm_MAQUINAS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MAQUINAS_DEVICES.resx">
+      <DependentUpon>frm_MAQUINAS_DEVICES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MAQUINAS_GRUPO.resx">
+      <DependentUpon>frm_MAQUINAS_GRUPO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MAQUINAS_MASTER.resx">
+      <DependentUpon>frm_MAQUINAS_MASTER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MOTIVOPARADAS.resx">
+      <DependentUpon>frm_MOTIVOPARADAS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MOTIVOSPARADAS_ORIENTACAO.resx">
+      <DependentUpon>frm_MOTIVOSPARADAS_ORIENTACAO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ONLINE.resx">
+      <DependentUpon>frm_ONLINE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_OPERADORES.resx">
+      <DependentUpon>frm_OPERADORES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PERFILUSUÁRIOS.resx">
+      <DependentUpon>frm_PERFILUSUÁRIOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PRODUTIVIDADE.resx">
+      <DependentUpon>frm_PRODUTIVIDADE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PRODUTIVIDADE_ANOFISCAL.resx">
+      <DependentUpon>frm_PRODUTIVIDADE_ANOFISCAL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PRODUTIVIDADE_MENSAL.resx">
+      <DependentUpon>frm_PRODUTIVIDADE_MENSAL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_REPORT_AMARRADO.resx">
+      <DependentUpon>frm_REPORT_AMARRADO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_REPORT_AMARRADOS_SEMTURNO.resx">
+      <DependentUpon>frm_REPORT_AMARRADOS_SEMTURNO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_REPORT_APONTAMENTO.resx">
+      <DependentUpon>frm_REPORT_APONTAMENTO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_REPORT_APONTAMENTO_GRUPO.resx">
+      <DependentUpon>frm_REPORT_APONTAMENTO_GRUPO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_REPORT_APONTAMENTO_LIVRE.resx">
+      <DependentUpon>frm_REPORT_APONTAMENTO_LIVRE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_REPORT_MANUTENCAO.resx">
+      <DependentUpon>frm_REPORT_MANUTENCAO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_REPORT_MANUTENCAO_GRUPO.resx">
+      <DependentUpon>frm_REPORT_MANUTENCAO_GRUPO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_REPORT_PARADAS.resx">
+      <DependentUpon>frm_REPORT_PARADAS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_REPORT_PRODUTIVIDADE.resx">
+      <DependentUpon>frm_REPORT_PRODUTIVIDADE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_REPORT_PRODUTIVIDADE_GRUPO.resx">
+      <DependentUpon>frm_REPORT_PRODUTIVIDADE_GRUPO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_REPORT_TEMPOCALENDARIO.resx">
+      <DependentUpon>frm_REPORT_TEMPOCALENDARIO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SPLASH.resx">
+      <DependentUpon>frm_SPLASH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_TEMPOCALENDARIO.resx">
+      <DependentUpon>frm_TEMPOCALENDARIO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_TURNO.resx">
+      <DependentUpon>frm_TURNO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report_AMARRADO.rdlc" />
+    <EmbeddedResource Include="report_AMARRADO_SEM_TC.rdlc" />
+    <EmbeddedResource Include="report_APONTAMENTO.rdlc" />
+    <EmbeddedResource Include="report_APONTAMENTO_GRUPO.rdlc" />
+    <EmbeddedResource Include="report_APONTAMENTO_LIVRE.rdlc" />
+    <EmbeddedResource Include="report_MANUTENCAO.rdlc" />
+    <EmbeddedResource Include="report_MANUTENCAO_GRUPO.rdlc" />
+    <EmbeddedResource Include="report_PARADAS.rdlc" />
+    <EmbeddedResource Include="report_PRODUTIVIDADE.rdlc" />
+    <EmbeddedResource Include="report_PRODUTIVIDADE_GRUPO.rdlc" />
+    <EmbeddedResource Include="report_TEMPOCALENDARIO.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="oViewerDataSet.xsc">
+      <DependentUpon>oViewerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet.xss">
+      <DependentUpon>oViewerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet1.xsc">
+      <DependentUpon>oViewerDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet1.xss">
+      <DependentUpon>oViewerDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet10.xsc">
+      <DependentUpon>oViewerDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet10.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet10.xss">
+      <DependentUpon>oViewerDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet11.xsc">
+      <DependentUpon>oViewerDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet11.xss">
+      <DependentUpon>oViewerDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet12.xsc">
+      <DependentUpon>oViewerDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet12.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet12.xss">
+      <DependentUpon>oViewerDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet13.xsc">
+      <DependentUpon>oViewerDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet13.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet13.xss">
+      <DependentUpon>oViewerDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet14.xsc">
+      <DependentUpon>oViewerDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet14.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet14.xss">
+      <DependentUpon>oViewerDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet15.xsc">
+      <DependentUpon>oViewerDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet15.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet15.xss">
+      <DependentUpon>oViewerDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet16.xsc">
+      <DependentUpon>oViewerDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet16.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet16.xss">
+      <DependentUpon>oViewerDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet17.xsc">
+      <DependentUpon>oViewerDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet17.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet17.xss">
+      <DependentUpon>oViewerDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet18.xsc">
+      <DependentUpon>oViewerDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet18.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet18.xss">
+      <DependentUpon>oViewerDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet19.xsc">
+      <DependentUpon>oViewerDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet19.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet19.xss">
+      <DependentUpon>oViewerDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet2.xsc">
+      <DependentUpon>oViewerDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet2.xss">
+      <DependentUpon>oViewerDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet20.xsc">
+      <DependentUpon>oViewerDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet20.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet20.xss">
+      <DependentUpon>oViewerDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet21.xsc">
+      <DependentUpon>oViewerDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet21.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet21.xss">
+      <DependentUpon>oViewerDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet22.xsc">
+      <DependentUpon>oViewerDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet22.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet22.xss">
+      <DependentUpon>oViewerDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet23.xsc">
+      <DependentUpon>oViewerDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet23.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet23.xss">
+      <DependentUpon>oViewerDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet24.xsc">
+      <DependentUpon>oViewerDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet24.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet24.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet24.xss">
+      <DependentUpon>oViewerDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet25.xsc">
+      <DependentUpon>oViewerDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet25.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet25.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet25.xss">
+      <DependentUpon>oViewerDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet26.xsc">
+      <DependentUpon>oViewerDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet26.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet26.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet26.xss">
+      <DependentUpon>oViewerDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet27.xsc">
+      <DependentUpon>oViewerDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet27.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet27.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet27.xss">
+      <DependentUpon>oViewerDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet28.xsc">
+      <DependentUpon>oViewerDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet28.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet28.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet28.xss">
+      <DependentUpon>oViewerDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet29.xsc">
+      <DependentUpon>oViewerDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet29.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet29.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet29.xss">
+      <DependentUpon>oViewerDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet3.xsc">
+      <DependentUpon>oViewerDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet3.xss">
+      <DependentUpon>oViewerDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet30.xsc">
+      <DependentUpon>oViewerDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet30.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet30.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet30.xss">
+      <DependentUpon>oViewerDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet31.xsc">
+      <DependentUpon>oViewerDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet31.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet31.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet31.xss">
+      <DependentUpon>oViewerDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet32.xsc">
+      <DependentUpon>oViewerDataSet32.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet32.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet32.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet32.xss">
+      <DependentUpon>oViewerDataSet32.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet33.xsc">
+      <DependentUpon>oViewerDataSet33.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet33.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet33.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet33.xss">
+      <DependentUpon>oViewerDataSet33.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet34.xsc">
+      <DependentUpon>oViewerDataSet34.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet34.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet34.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet34.xss">
+      <DependentUpon>oViewerDataSet34.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet35.xsc">
+      <DependentUpon>oViewerDataSet35.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet35.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet35.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet35.xss">
+      <DependentUpon>oViewerDataSet35.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet36.xsc">
+      <DependentUpon>oViewerDataSet36.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet36.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet36.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet36.xss">
+      <DependentUpon>oViewerDataSet36.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet37.xsc">
+      <DependentUpon>oViewerDataSet37.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet37.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet37.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet37.xss">
+      <DependentUpon>oViewerDataSet37.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet38.xsc">
+      <DependentUpon>oViewerDataSet38.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet38.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet38.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet38.xss">
+      <DependentUpon>oViewerDataSet38.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet4.xsc">
+      <DependentUpon>oViewerDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet4.xss">
+      <DependentUpon>oViewerDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet5.xsc">
+      <DependentUpon>oViewerDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet5.xss">
+      <DependentUpon>oViewerDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet6.xsc">
+      <DependentUpon>oViewerDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet6.xss">
+      <DependentUpon>oViewerDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet7.xsc">
+      <DependentUpon>oViewerDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet7.xss">
+      <DependentUpon>oViewerDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet8.xsc">
+      <DependentUpon>oViewerDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet8.xss">
+      <DependentUpon>oViewerDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet9.xsc">
+      <DependentUpon>oViewerDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="oViewerDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>oViewerDataSet9.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="oViewerDataSet9.xss">
+      <DependentUpon>oViewerDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img_gear_24_B.ico" />
+    <Content Include="SqlServerTypes\Loader.cs" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

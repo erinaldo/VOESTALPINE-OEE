@@ -1,0 +1,9 @@
+
+14/01/2020 10:42:35 - Falha interna da função WriteDBREPORTAPONTAMENTO_GRUPO
+14/01/2020 10:42:35 - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em MCONTROL_OEE.mod_OEE.WriteDBREPORTAPONTAMENTO_GRUPO(Int32 intUSERID, String strDATAHOJE, Int32 intMES, Int32 intANO, Int32 intDIASUTEIS, Int32 intDIASUTEISHOJE, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\mod_OEE.vb:linha 6204
+14/01/2020 17:26:09 - Falha interna da função ReadDBGETSTATUS
+14/01/2020 17:26:09 - System.IndexOutOfRangeException: Não há linha na posição 0.
+   em System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   em System.Data.DataRowCollection.get_Item(Int32 index)
+   em MCONTROL_OEE.frm_ONLINE.ReadDBGETSTATUS(Int32 intMACHINEID, String& strSTATUS, Boolean& bolPARADA, Boolean& bolAGUARDANDO, Boolean& bolNOMOTIVO, Boolean& bolNOESCALA, String& strTEMPO, String& strMOTIVO, String& strERROR) na C:\VOESTALPINE - DEV\MCONTROL_OEE\MCONTROL_OEE\frm_ONLINE.vb:linha 221
